@@ -60,14 +60,15 @@ const lerp = (a, b, t) => a + (b - a) * t;
 const clamp = (v, a, b) => (v < a ? a : v > b ? b : v);
 const ease = (t) => t * t * (3 - 2 * t);
 
-// Palette. Ground is near-black in dark mode and a warm off-white in light
-// mode; the accent follows the site (azure in light, lemon in dark).
+// Palette. The panels keep a dark ground in both site themes, in the way an
+// electron micrograph is bright signal on a dark field, and only the accent
+// follows the site: azure in light mode, lemon in dark mode.
 function palette(dark) {
   return dark
-    ? { bgc: [12, 15, 20], bg: "#0c0f14", ink: [232, 236, 244], dim: [120, 132, 150],
-        accent: [255, 244, 79], warm: [255, 138, 128], glow: 0.9 }
-    : { bgc: [244, 245, 243], bg: "#f4f5f3", ink: [26, 30, 38], dim: [150, 158, 170],
-        accent: [0, 127, 255], warm: [209, 73, 91], glow: 0.55 };
+    ? { bgc: [10, 12, 17], bg: "#0a0c11", ink: [236, 240, 248], dim: [110, 122, 140],
+        accent: [255, 244, 79], warm: [255, 150, 130], glow: 1.0 }
+    : { bgc: [16, 20, 28], bg: "#10141c", ink: [238, 242, 250], dim: [120, 132, 150],
+        accent: [96, 176, 255], warm: [255, 150, 140], glow: 0.95 };
 }
 const rgba = (c, a) => `rgba(${c[0]},${c[1]},${c[2]},${a})`;
 // mix two colours, then push a fraction of the way toward the accent
@@ -89,7 +90,7 @@ function scanPainter() {
   for (let i = 0; i < 9; i++)
     grains.push({
       x: r() * 1.6 - 0.3, y: r() * 1.4 - 0.2,
-      ang: r() * 1.5708, d: 0.030 + 0.016 * r(), amp: 0.72 + 0.28 * r(),
+      ang: r() * 1.5708, d: 0.050 + 0.022 * r(), amp: 0.75 + 0.25 * r(),
     });
   function nearest(x, y) {
     let best = 9, g = grains[0];
@@ -130,7 +131,7 @@ function scanPainter() {
         const v = field(fx * aspect * 0.42, fy * 0.42);
         const travelled = ry % 2 === 0 ? fx : 1 - fx;
         const heat = 1 - clamp((done - ry - travelled) / 2.2, 0, 1);
-        const amt = lerp(0.04, 0.92, v) * fade;
+        const amt = lerp(0.02, 0.97, Math.pow(v, 0.85)) * fade;
         g.fillStyle = mix(bgc, ink, amt, accent, heat * 0.55 * p.glow);
         g.fillRect(fx * w, ry * rowH, w / NX + 1, rowH + 1);
       }
@@ -168,9 +169,9 @@ function scanPainter() {
       g.moveTo(ry % 2 === 0 ? 0 : w, py); g.lineTo(px, py); g.stroke();
     }
     // vignette
-    const vg = g.createRadialGradient(w / 2, h / 2, Math.min(w, h) * 0.25, w / 2, h / 2, Math.max(w, h) * 0.72);
+    const vg = g.createRadialGradient(w / 2, h / 2, Math.min(w, h) * 0.3, w / 2, h / 2, Math.max(w, h) * 0.78);
     vg.addColorStop(0, rgba(bgc, 0));
-    vg.addColorStop(1, rgba(bgc, 0.55));
+    vg.addColorStop(1, rgba(bgc, 0.42));
     g.fillStyle = vg; g.fillRect(0, 0, w, h);
     if (hover > 0.01) { g.fillStyle = rgba(accent, 0.05 * hover); g.fillRect(0, 0, w, h); }
   };
@@ -224,11 +225,11 @@ function samplingPainter() {
       const R = m.s * (1 + 1.5 * lit) * (0.9 + 0.25 * tw);
       const c = lit > 0.02 ? accent : warm;
       const gr = g.createRadialGradient(x, y, 0, x, y, R * 4.5);
-      gr.addColorStop(0, rgba(c, (0.5 + 0.45 * lit) * (0.5 + 0.5 * tw) * p.glow));
+      gr.addColorStop(0, rgba(c, (0.34 + 0.5 * lit) * (0.55 + 0.45 * tw) * p.glow));
       gr.addColorStop(1, rgba(c, 0));
       g.fillStyle = gr;
       g.beginPath(); g.arc(x, y, R * 4.5, 0, 6.2832); g.fill();
-      g.fillStyle = rgba(c, 0.75 * (0.45 + 0.55 * lit));
+      g.fillStyle = rgba(c, 0.9 * (0.4 + 0.6 * lit));
       g.beginPath(); g.arc(x, y, R * 0.85, 0, 6.2832); g.fill();
     }
     // window outlines
@@ -294,7 +295,7 @@ function materialsPainter() {
     const band = (((t / PERIOD) + PHASE) % 1) * 1.5 - 0.25;   // sweeps left to right
     const bw = 0.3;
     // bonds
-    g.strokeStyle = rgba(dim, 0.18); g.lineWidth = 0.7;
+    g.strokeStyle = rgba(dim, 0.22); g.lineWidth = 0.7;
     g.beginPath();
     for (const s of sites) {
       const near = sites.filter((o) => o !== s && Math.abs(o.x - s.x) < 1.15 / NX && Math.abs(o.y - s.y) < 1.15 / NY);
@@ -314,9 +315,9 @@ function materialsPainter() {
       const base = Math.min(w, h) * 0.013;
       const R = base * (s.minority ? 1.5 : 1) * (1 + 2.6 * avg);
       const c = s.minority ? accent : ink;
-      const aCore = (s.minority ? 0.95 : 0.5) * (1 - 0.72 * avg);
+      const aCore = (s.minority ? 0.98 : 0.62) * (1 - 0.7 * avg);
       const gr = g.createRadialGradient(x, y, 0, x, y, R * 3.4);
-      gr.addColorStop(0, rgba(c, (s.minority ? 0.55 : 0.16) * p.glow * (1 - 0.5 * avg)));
+      gr.addColorStop(0, rgba(c, (s.minority ? 0.6 : 0.2) * p.glow * (1 - 0.5 * avg)));
       gr.addColorStop(1, rgba(c, 0));
       g.fillStyle = gr;
       g.beginPath(); g.arc(x, y, R * 3.4, 0, 6.2832); g.fill();
