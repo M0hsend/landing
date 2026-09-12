@@ -32,12 +32,10 @@ project:
 site:
   template: book-theme
   title: Mohsen Danaie
-  parts:
-    primary_sidebar_footer: parts/sidebar-footer.md
   options:
     style: ./style.css
     logo_text: Mohsen Danaie
-    folders: true
+    hide_toc: true
     outline_maxdepth: 2
     hide_footer_links: true
   nav:

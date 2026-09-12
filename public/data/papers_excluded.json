@@ -1,0 +1,314 @@
+[
+  {
+    "title": "pyxem/pyxem: pyxem 0.10. 0",
+    "authors_short": "DN Johnstone, P Crout, J Laulainen, S Høgås, B Martineau, T Bergh, ...",
+    "venue": "Zenodo",
+    "cites": 21,
+    "year": 2020,
+    "kind": "software"
+  },
+  {
+    "title": "Kinetic stabilization of magnesium hydride",
+    "authors_short": "D Mitlin, B Zahiri, M Danaie, BS Amirkhiz, XH Tan, E Luber, ...",
+    "venue": "US Patent 9,045,335",
+    "cites": 10,
+    "year": 2015,
+    "kind": "patent"
+  },
+  {
+    "title": "Low-Dose Scanning Electron Diffraction Microscopy of Mechanochemically Nanostructured Pharmaceuticals",
+    "authors_short": "DN Johnstone, CS Allen, M Danaie, RCB Copley, J Brum, AI Kirkland, ...",
+    "venue": "Microscopy and Microanalysis 25 (S2), 1746-1747",
+    "cites": 9,
+    "year": 2019,
+    "kind": "abstract"
+  },
+  {
+    "title": "Investigation of beam damage mechanism of ball-milled MgH2 powder",
+    "authors_short": "M Danaie, M Malac, D Mitlin",
+    "venue": "Microscopy and Microanalysis 14 (S2), 278",
+    "cites": 9,
+    "year": 2008,
+    "kind": "abstract"
+  },
+  {
+    "title": "pyxem/pyxem: pyxem 0.15. 1",
+    "authors_short": "D Johnstone, P Crout, M Nord, C Francis, J Laulainen, S Høgås, ...",
+    "venue": "Zenodo",
+    "cites": 7,
+    "year": 2022,
+    "kind": "software"
+  },
+  {
+    "title": "pyxem/pyxem: v0. 19.1",
+    "authors_short": "D Johnstone, P Crout, C Francis, M Nord, J Laulainen, S Høgås, ...",
+    "venue": "Zenodo",
+    "cites": 5,
+    "year": 2024,
+    "kind": "software"
+  },
+  {
+    "title": "Cover Feature: Manipulating the Optical Properties of Carbon Dots by Fine‐Tuning their Structural Features (ChemSusChem 19/2019)",
+    "authors_short": "H Luo, N Papaioannou, E Salvadori, MM Roessler, G Ploenes, ...",
+    "venue": "ChemSusChem 12 (19), 4335-4335",
+    "cites": 5,
+    "year": 2019,
+    "kind": "other"
+  },
+  {
+    "title": "pyxem/pyxem-demos: pyxem-demos 0.11. 0",
+    "authors_short": "DN Johnstone, P Crout, S Høgås, T Bergh, M Danaie, C Francis, ...",
+    "venue": "Zenodo",
+    "cites": 4,
+    "year": 2020,
+    "kind": "software"
+  },
+  {
+    "title": "pyxem/pyxem: v0. 16.0",
+    "authors_short": "D Johnstone, P Crout, M Nord, C Francis, J Laulainen, S Høgås, ...",
+    "venue": "Zenodo",
+    "cites": 3,
+    "year": 2019,
+    "kind": "software"
+  },
+  {
+    "title": "Imaging structure and magnetisation in new ways using 4D STEM",
+    "authors_short": "I MacLaren, M Nord, S Conner, D McGrouther, CS Allen, M Danaie, ...",
+    "venue": "Microsc. Microanal 24 (1), 181",
+    "cites": 3,
+    "year": 2018,
+    "kind": "abstract"
+  },
+  {
+    "title": "Low Dose Defocused Probe Electron Ptychography Using a Fast Direct Electron Detector",
+    "authors_short": "CS Allen, J Song, M Danaie, P Wang, AI Kirkland",
+    "venue": "Microscopy and Microanalysis 24 (S1), 186-187",
+    "cites": 3,
+    "year": 2018,
+    "kind": "abstract"
+  },
+  {
+    "title": "Multi-Technique Characterization of Sulfur-Bearing Serpentine in Carbonaceous Chondrites",
+    "authors_short": "N Topping, JC Bridges, LJ Hicks, L Petera, C Allen, M Danaie, L Blase, ...",
+    "venue": "86th Annual Meeting of the Meteoritical Society Meeting 86 (3036), 6302",
+    "cites": 1,
+    "year": 2024,
+    "kind": "abstract"
+  },
+  {
+    "title": "Versatile automated domain mapping of 4D-STEM data utilizing ML algorithms and Bayesian statistics",
+    "authors_short": "A Bridger, M Danaie, K Butler, T Wood, WIF David",
+    "venue": "Microscopy and Microanalysis 28 (S1), 3022-3023",
+    "cites": 1,
+    "year": 2022,
+    "kind": "abstract"
+  },
+  {
+    "title": "Robust Measurements of Functional Material Properties using in situ 4D-STEM",
+    "authors_short": "C Ophus, M Conroy, M Danaie, BH Savitzky, A Rakowski, A Ackerman, ...",
+    "venue": "Microscopy and Microanalysis 28 (S1), 2312-2313",
+    "cites": 1,
+    "year": 2022,
+    "kind": "abstract"
+  },
+  {
+    "title": "In situ analysis of nm-scale alpha formation in titanium alloys",
+    "authors_short": "AK Ackerman, C Ophus, M Danaie, P Karamched, AJ Knowles, ...",
+    "venue": "Microscopy and Microanalysis 25 (S2), 1490-1491",
+    "cites": 1,
+    "year": 2019,
+    "kind": "abstract"
+  },
+  {
+    "title": "Microstructure-property correlation in magnesium-based hydrogen storage systems-The case for ball-milled magnesium hydride powder and Mg-based multilayered composites",
+    "authors_short": "M Danaie",
+    "venue": "",
+    "cites": 1,
+    "year": 2011,
+    "kind": "thesis"
+  },
+  {
+    "title": "4D-STEM Analyses of Sulfur-Bearing Serpentine in Carbonaceous Chondrites",
+    "authors_short": "N Topping, JC Bridges, LJ Hicks, L Petera, C Allen, J Ryu, DG Hopkinson, ...",
+    "venue": "METEORITICS & PLANETARY SCIENCE 60",
+    "cites": 0,
+    "year": 2025,
+    "kind": "abstract"
+  },
+  {
+    "title": "Structural Analysis of LNMO Cathode Materials using 4D-STEM ACOM and Data Science Techniques",
+    "authors_short": "F Adrar, J Jean, G Oney, M Danaie, F Weill, M Bugnet, A Demortiere",
+    "venue": "19ème Colloque de la Société Française des Microscopies",
+    "cites": 0,
+    "year": 2025,
+    "kind": "abstract"
+  },
+  {
+    "title": "Automation of Simultaneous 4DSTEM-EDX Acquisition and Data Analysis for Beam-sensitive Materials",
+    "authors_short": "J Ryu, AA Sheader, M Danaie, DG Hopkinson, KE MacArthur, NK Noel, ...",
+    "venue": "13th Asia Pacific Microscopy Congress 2025, e197",
+    "cites": 0,
+    "year": 2025,
+    "kind": "abstract"
+  },
+  {
+    "title": "Electron beam effects on neuromorphic nanocluster networks during electron microscopy experiments",
+    "authors_short": "M Baljozović, JE McCormack, E Kitching, M Dearg, M Danaie, Y Niu, ...",
+    "venue": "BOOK OF ABSTRACTS, 45",
+    "cites": 0,
+    "year": 2023,
+    "kind": "abstract"
+  },
+  {
+    "title": "Tilted-octahedra stabilize FA rich halide perovskites",
+    "authors_short": "T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...",
+    "venue": "Proceedings of International Conference on Hybrid and Organic Photovoltaics …",
+    "cites": 0,
+    "year": 2022,
+    "kind": "abstract"
+  },
+  {
+    "title": "Research data supporting\" Stabilized tilted-octahedra halide perovskites inhibit local formation of performance-limiting phases\"",
+    "authors_short": "T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...",
+    "venue": "",
+    "cites": 0,
+    "year": 2022,
+    "kind": "other"
+  },
+  {
+    "title": "Octahedral Tilt Engineering: Atomic-Level Picture of Stabilized α-FAPbI3",
+    "authors_short": "T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...",
+    "venue": "Proceedings of Online Conference on Atomic-level Characterisation of Hybrid …",
+    "cites": 0,
+    "year": 2021,
+    "kind": "abstract"
+  },
+  {
+    "title": "Novel Synthesis and Multi-technique Characterisation of Au-Cu Nanoparticles",
+    "authors_short": "Q Yang, M Danaie, N Young, V Broadley, J DE, TL Martin, E Marceau, ...",
+    "venue": "Microscopy and Microanalysis 25 (S2), 2526-2527",
+    "cites": 0,
+    "year": 2019,
+    "kind": "abstract"
+  },
+  {
+    "title": "Low-dose scanning electron diffraction and pharmaceutical nanostructure",
+    "authors_short": "D Johnstone, CS Allen, M Danaie, RCB Copley, A Lafontaine, J Brum, ...",
+    "venue": "Acta Crystallographica Section A: Foundations and Advances 74",
+    "cites": 0,
+    "year": 2018,
+    "kind": "abstract"
+  },
+  {
+    "title": "Multivariate‐aided mapping of solute partitioning in a rare‐earth magnesium alloy",
+    "authors_short": "D Rossouw, B Langelier, A Scullion, M Danaie, G Botton",
+    "venue": "European Microscopy Congress 2016: Proceedings, 49-50",
+    "cites": 0,
+    "year": 2016,
+    "kind": "abstract"
+  },
+  {
+    "title": "TEM Characterization of ion radiation damage in Ca (1-X) La2X/3TiO3 Perovskites",
+    "authors_short": "M Danaie, S Pedrazzini, NP Young, PAJ Bagot, KR Whittle, ...",
+    "venue": "Microscopy and Microanalysis 21, 1335",
+    "cites": 0,
+    "year": 2015,
+    "kind": "abstract"
+  },
+  {
+    "title": "New insights into magnesium alloy corrosion using scanning electrochemical microscopy",
+    "authors_short": "PD Ducharme, U Tefashe, R Asmussen, M Danaie, W Binns, P Jakupi, ...",
+    "venue": "ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY 249",
+    "cites": 0,
+    "year": 2015,
+    "kind": "abstract"
+  },
+  {
+    "title": "TEM guided microstructural design of MgH 2 powders and thin film alloys with room temperature volumetric hydrogen cycling ability",
+    "authors_short": "D Mitlin, P Kalisvaart, M Danaie, SX Tao, B Zahiri, H Fritzsche",
+    "venue": "AIP Conference Proceedings, Berlin, Germany",
+    "cites": 0,
+    "year": 2012,
+    "kind": "abstract"
+  },
+  {
+    "title": "Analysis of Deformation Twins and the Partially Dehydrogenated Microstructure in Nanocrystalline Magnesium Hydride(MgH 2)",
+    "authors_short": "D Mitlin, M Danaie, SX Tao, P Kalisvaart",
+    "venue": "Minerals, Metals and Materials Society/AIME, 420 Commonwealth Dr., P. O. Box …",
+    "cites": 0,
+    "year": 2011,
+    "kind": "abstract"
+  },
+  {
+    "title": "Microstructure and hydrogen storage properties magnesium-aluminum alloy thin films with various catalytic coatings",
+    "authors_short": "CT Harrower, C Ophus, M Danaie, J Haagsma, X Tan, D Mitlin",
+    "venue": "",
+    "cites": 0,
+    "year": 2009,
+    "kind": "abstract"
+  },
+  {
+    "title": "TEM analysis of high-energy ball-milled MgH {sub 2} powders",
+    "authors_short": "M Danaie, D Mitlin",
+    "venue": "",
+    "cites": 0,
+    "year": 2009,
+    "kind": "abstract"
+  },
+  {
+    "title": "The influence of transition metal containing carbon nanotubes on the hydrogen storage properties of ball milled MgH {sub 2} powders",
+    "authors_short": "B Shalchi Amirkhiz, M Danaie, D Mitlin, B Simard",
+    "venue": "",
+    "cites": 0,
+    "year": 2009,
+    "kind": "abstract"
+  },
+  {
+    "title": "C536 Journal of The Electrochemical Society, 162 (10) C536-C544 (2015)",
+    "authors_short": "E Poly, MT Coating Ushula, P Dauphin-Ducharme, M Danaie",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "other"
+  },
+  {
+    "title": "Characterisation of Radiation Damage in Perovskite Superconductor Yttrium Barium Copper Oxide",
+    "authors_short": "S Pedrazzini, M Danaie, GD Brittles, S Speller, CRM Grovenor, ...",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "no-year"
+  },
+  {
+    "title": "SITE-SPECIFIC MICROSTRUCTURE CHARACTERIZATION OF THE SURFACE LAYER IN A SAND-CAST Mg-Al ALLOY (AM50) CORRODED IN AN AQUEOUS NACL SOLUTION",
+    "authors_short": "M Danaie, RM Asmussen, P Jakupi, DW Shoesmith, GA Botton",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "no-year"
+  },
+  {
+    "title": "Aberration-corrected Electron Microscopy: Probing the Electronic Structure and Chemistry of Materials at the Atomic Level",
+    "authors_short": "GA Botton, E Bellido-Sosa, M Bugnet, M Danaie, K Dudeck, N Gauquelin, ...",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "no-year"
+  },
+  {
+    "title": "Applications of electron energy loss spectroscopy with high spatial resolution and high energy resolution",
+    "authors_short": "GA Botton, M Bugnet, M Danaie, N Gauquelin, S Lazar, F Nan, ...",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "no-year"
+  },
+  {
+    "title": "Characterization of the microstructure in a nanoscale Mg/(Al, Ti) multilayer system",
+    "authors_short": "M Danaie, D Mitlin, GA Botton",
+    "venue": "",
+    "cites": null,
+    "year": null,
+    "kind": "no-year"
+  }
+]

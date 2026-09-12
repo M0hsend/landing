@@ -1,10 +1,26 @@
 // paper-list.js — ESM module for searchable/filterable publication list (MyST anywidget)
 
+// MyST does not serve arbitrary project files, so the data files are linked
+// from the page (a hidden .msc-data-links block); MyST copies them to its
+// static server under hashed names. Resolve "data/papers.json" to that link.
+function resolveDataUrl(url) {
+  if (!url || /^(https?:)?\/\//.test(url)) return url;
+  const base = url.split("/").pop().replace(/\.json$/, "");
+  const rx = new RegExp("(^|/)" + base.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(-[0-9a-f]{6,})?\\.json$");
+  for (const a of document.querySelectorAll("a[href]")) {
+    try {
+      const p = new URL(a.getAttribute("href"), window.location.href);
+      if (rx.test(p.pathname)) return p.href;
+    } catch (e) { /* ignore */ }
+  }
+  return url;
+}
+
 function render({ model, el }) {
-  const dataUrl = model.get("data_url") || "";
+  const dataUrl = resolveDataUrl(model.get("data_url") || "");
   const accentColor = model.get("accent_color") || "#8C1515";
   const accentColorDark = model.get("accent_color_dark") || "#E8A0A0";
-  const hoverUrl = model.get("hover_url") || "";
+  const hoverUrl = resolveDataUrl(model.get("hover_url") || "");
 
   const id = "pl-" + Math.random().toString(36).slice(2, 8);
 
@@ -150,8 +166,12 @@ function render({ model, el }) {
       line-height: 1.5;
     }
     .${id}-paper a {
-      color: #6b1010;
+      color: ${accentColor};
       text-decoration: none;
+    }
+    .${id}-paper-meta b {
+      font-weight: 700;
+      color: inherit;
     }
     .${id}-paper a:hover {
       text-decoration: underline;
@@ -193,10 +213,10 @@ function render({ model, el }) {
     .${id}-dark .${id}-tagcount { color: ${accentColorDark}; }
     .${id}-dark .${id}-tag { background: #1f2937; color: #6b7280; border-color: #374151; }
     .${id}-dark .${id}-tag:hover { border-color: #b05050; color: #d4a0a0; }
-    .${id}-dark .${id}-tag.active { background: #6b2020; color: #e5d0d0; border-color: #8C1515; }
+    .${id}-dark .${id}-tag.active { background: ${accentColorDark}33; color: ${accentColorDark}; border-color: ${accentColorDark}; }
     .${id}-dark .${id}-year-btn { background: #1f2937; color: #6b7280; border-color: #374151; }
     .${id}-dark .${id}-year-btn:hover { border-color: #b05050; color: #d4a0a0; }
-    .${id}-dark .${id}-year-btn.active { background: #6b2020; color: #e5d0d0; border-color: #8C1515; }
+    .${id}-dark .${id}-year-btn.active { background: ${accentColorDark}33; color: ${accentColorDark}; border-color: ${accentColorDark}; }
     .${id}-dark .${id}-year-heading { color: #e5e7eb; border-bottom-color: ${accentColorDark}; }
     .${id}-dark .${id}-paper a { color: ${accentColorDark}; }
     .${id}-dark .${id}-paper-meta { color: #9ca3af; }
@@ -506,10 +526,24 @@ function render({ model, el }) {
       return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
     }
 
+    // Author list as HTML: long lists are shortened to the first five and the
+    // last author, but the highlighted author (the site owner) is always kept
+    // and shown in bold.
+    const highlightRx = new RegExp(model.get("highlight_author") || "Danaie", "i");
     function formatAuthors(authors) {
       if (!authors || authors.length === 0) return "";
-      if (authors.length <= 6) return authors.join(", ");
-      return authors.slice(0, 5).join(", ") + ", ... " + authors[authors.length - 1];
+      const fmt = (a) => (highlightRx.test(a) ? `<b>${escHtml(a)}</b>` : escHtml(a));
+      if (authors.length <= 6) return authors.map(fmt).join(", ");
+      const keep = new Set([0, 1, 2, 3, 4, authors.length - 1]);
+      const hi = authors.findIndex((a) => highlightRx.test(a));
+      if (hi >= 0) keep.add(hi);
+      const parts = [];
+      let gap = false;
+      authors.forEach((a, i) => {
+        if (keep.has(i)) { parts.push(fmt(a)); gap = false; }
+        else if (!gap) { parts.push("..."); gap = true; }
+      });
+      return parts.join(", ");
     }
 
     function renderResults() {
@@ -557,7 +591,7 @@ function render({ model, el }) {
           const authorsStr = formatAuthors(p.authors || []);
           const journal = p.journal || "";
           let metaParts = [];
-          if (authorsStr) metaParts.push(escHtml(authorsStr));
+          if (authorsStr) metaParts.push(authorsStr);
           if (journal) metaParts.push(`<span class="${id}-paper-journal">${escHtml(journal)}</span>`);
 
           html += `<div class="${id}-paper" data-pidx="${p._idx}">`;

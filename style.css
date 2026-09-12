@@ -2,17 +2,19 @@
    mohsen-danaie — custom theming on top of MyST book-theme.
    Loaded via `site.options.style` in myst.yml.
 
-   Accent: dark red rgb(204,0,0) (matching the quantEM docs),
-   lightened in dark mode for contrast on the dark background.
+   Accent: azure blue in light mode, lemon yellow in dark mode.
+   --msc-on-accent is the text color used on top of the accent.
    ============================================================ */
 
 :root {
-  --msc-accent: rgb(204, 0, 0);
-  --msc-accent-soft: rgba(204, 0, 0, 0.12);
+  --msc-accent: rgb(0, 127, 255);
+  --msc-accent-soft: rgba(0, 127, 255, 0.12);
+  --msc-on-accent: #fff;
 }
 html.dark {
-  --msc-accent: rgb(255, 63, 63);
-  --msc-accent-soft: rgba(255, 63, 63, 0.18);
+  --msc-accent: rgb(255, 244, 79);
+  --msc-accent-soft: rgba(255, 244, 79, 0.16);
+  --msc-on-accent: #111;
 }
 
 /* ---------- Site title (upper-left) ---------- */
@@ -97,48 +99,6 @@ html.dark :not(pre) > code {
   color: rgb(244, 114, 182);
 }
 
-/* ---------- Left sidebar ----------
-   Smaller type, tighter rhythm, bold top-level sections. */
-.myst-primary-sidebar-toc {
-  font-size: 0.85rem;
-}
-.myst-primary-sidebar-toc .myst-toc-item {
-  margin-top: 0.125rem;
-  margin-bottom: 0.125rem;
-}
-.myst-primary-sidebar-toc a.myst-toc-item {
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-}
-.myst-primary-sidebar-toc .myst-toc-item > div {
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
-}
-.myst-primary-sidebar-toc button svg {
-  height: 1.1rem;
-  width: 1.1rem;
-}
-/* Top-level sections in bold */
-.myst-toc > div > .myst-toc-item {
-  font-weight: 700;
-}
-/* book-theme marks the section containing the current page in blue; make it
-   bold accent instead, and keep the page links themselves accented when active. */
-.myst-primary-sidebar-toc .text-blue-800,
-html.dark .myst-primary-sidebar-toc .dark\:text-blue-200 {
-  color: var(--msc-accent) !important;
-  font-weight: 700;
-}
-.myst-primary-sidebar-toc a.myst-toc-item-exact,
-.myst-primary-sidebar-toc a.myst-toc-item.active {
-  color: var(--msc-accent) !important;
-  font-weight: 700;
-}
-/* The site title is already in the top bar; drop the duplicate
-   root entry at the top of the sidebar. */
-.myst-toc > a.myst-toc-item[title="Mohsen Danaie"] {
-  display: none;
-}
 /* ---------- Hide the article-style frontmatter strip ---------- */
 .myst-fm-block-header,
 .myst-fm-block-date-doi,
@@ -242,7 +202,7 @@ a.msc-search-hit {
 a.msc-search-hit:hover,
 a.msc-search-hit.active {
   background: var(--msc-accent);
-  color: #fff !important;
+  color: var(--msc-on-accent) !important;
 }
 .msc-search-hit-title {
   font-size: 0.85rem;
@@ -284,50 +244,10 @@ article table th:first-child {
   white-space: nowrap;
 }
 
-/* ---------- Sidebar footer: lab logo (theme-swapped) ---------- */
-.myst-primary-sidebar-footer figure,
-.myst-primary-sidebar-footer p {
-  margin: 0;
-  text-align: left;
-}
-.myst-primary-sidebar-footer .msc-sidebar-logo {
-  display: block;
-  margin: 0 0 2px 0;
-}
-.myst-primary-sidebar-footer .msc-sidebar-logo img {
-  display: block;
-  margin: 0 !important;   /* the theme centers images with auto margins */
-}
-html.dark .msc-logo-light {
+/* ---------- Data links for widgets ----------
+   MyST only serves files that are linked from a page. The widgets' JSON
+   data files are linked inside a .msc-data-links block so MyST copies
+   them to its static server; the block itself is not shown. */
+.msc-data-links {
   display: none;
-}
-html:not(.dark) .msc-logo-dark {
-  display: none;
-}
-div.article.footer.myst-primary-sidebar-footer {
-  position: relative;
-  width: 130px;
-}
-/* hide the external-link arrow icon */
-.myst-primary-sidebar-footer p a svg {
-  display: none !important;
-}
-.myst-primary-sidebar-footer p a {
-  display: block;
-  width: 130px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  white-space: nowrap;
-  text-decoration: none;
-  color: inherit !important;
-  opacity: 0.8;
-}
-/* make the logo + text block one click target */
-.myst-primary-sidebar-footer p a::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-}
-.myst-primary-sidebar-footer p a:hover {
-  opacity: 1;
 }

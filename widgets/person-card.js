@@ -1,9 +1,26 @@
 // person-card.js — ESM module for interactive person cards (MyST anywidget)
 // Hover on desktop, tap on mobile to show info popup below name
 
+// MyST only serves images that appear in a page. people.md lists the portraits
+// in a hidden .msc-data-links block, so MyST copies them under hashed names;
+// resolve "images/people/x.jpg" to that copy (falls back to the given path).
+function resolveImage(url) {
+  if (!url || /^(https?:)?\/\//.test(url)) return url;
+  const m = url.split("/").pop().match(/^(.*?)(\.[a-z0-9]+)$/i);
+  if (!m) return url;
+  const rx = new RegExp("(^|/)" + m[1].replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "(-[0-9a-f]{6,})?\\.(png|jpe?g|webp|gif|svg)$", "i");
+  for (const img of document.querySelectorAll("img[src]")) {
+    try {
+      const p = new URL(img.getAttribute("src"), window.location.href);
+      if (rx.test(p.pathname)) return p.href;
+    } catch (e) { /* ignore */ }
+  }
+  return url;
+}
+
 function render({ model, el }) {
   const name = model.get("name") || "";
-  const image = model.get("image") || "";
+  const image = resolveImage(model.get("image") || "");
   const pronouns = model.get("pronouns") || "";
   const bio = model.get("bio") || "";
   const titles = model.get("titles") || [];

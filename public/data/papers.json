@@ -1,0 +1,1589 @@
+[
+  {
+    "title": "Metal‐Mediated Nitrogen Doping of Carbon Supports Boosts Hydrogen Production from Ammonia",
+    "authors": [
+      "Thomas J. Liddy",
+      "Benjamin J. Young",
+      "Emerson C. Kohlrausch",
+      "Andreas Weilhard",
+      "Gazi N. Aliev",
+      "Yifan Chen",
+      "Manfred E. Schuster",
+      "Mohsen Danaie",
+      "Luke L. Keenan",
+      "Donato Decarolis",
+      "Diego Gianolio",
+      "Siqi Wang",
+      "Mingming Zhu",
+      "Graham J. Hutchings",
+      "David M. Grant",
+      "Wolfgang Theis",
+      "Tien‐Lin Lee",
+      "David A. Duncan",
+      "Alberto Roldan",
+      "Andrei N. Khlobystov",
+      "Jesum Alves Fernandes"
+    ],
+    "journal": "Angewandte Chemie",
+    "year": 2026,
+    "url": "https://doi.org/10.1002/ange.202522937",
+    "cites": 4,
+    "tags": [
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "Functionalized MOFs for Subnanometric Control of Pd Speciation for Selective Hydrogenation of Butadiene",
+    "authors": [
+      "Donato Decarolis",
+      "Sahra Ahmed",
+      "James King",
+      "Alin-Marin Elena",
+      "Linda Zhang",
+      "Jeff Armstrong",
+      "Ines Lezcano-Gonzalez",
+      "Mohsen Danaie",
+      "Michael Hirscher",
+      "Simone Meloni",
+      "Andrew M. Beale",
+      "Petra Á. Szilágyi"
+    ],
+    "journal": "ACS Applied Nano Materials",
+    "year": 2026,
+    "url": "https://doi.org/10.1021/acsanm.6c00899",
+    "cites": 1,
+    "tags": [
+      "Hydrogen Storage",
+      "Porous Materials"
+    ]
+  },
+  {
+    "title": "Direct Imaging Reveals the Atomic Mechanism of Active‐Site Formation in Nanoclusters for Hydrogen Production",
+    "authors": [
+      "Emerson C. Kohlrausch",
+      "Christopher Leist",
+      "Gazi N. Aliev",
+      "Mohsen Danaie",
+      "Matthew Young",
+      "Madasamy Thangamuthu",
+      "Yifan Chen",
+      "William J. Cull",
+      "Wolfgang Theis",
+      "Ute Kaiser",
+      "Andrei N. Khlobystov",
+      "Jesum Alves Fernandes"
+    ],
+    "journal": "Advanced Materials",
+    "year": 2026,
+    "url": "https://doi.org/10.1002/adma.73454",
+    "cites": 1,
+    "tags": [
+      "Catalysis",
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "Atomic-resolution imaging of gold species at organic liquid-solid interfaces",
+    "authors": [
+      "Sam Sullivan-Allsop",
+      "Nick Clark",
+      "Wendong Wang",
+      "Rongsheng Cai",
+      "William Thornley",
+      "David G. Hopkinson",
+      "James G. McHugh",
+      "Ben Davies",
+      "Samuel Pattisson",
+      "Nicholas F. Dummer",
+      "Rui Zhang",
+      "Matthew Lindley",
+      "Gareth Tainton",
+      "Jack Harrison",
+      "Hugo De Latour",
+      "Joseph Parker",
+      "Joshua Swindell",
+      "Eli G. Castanon",
+      "Amy Carl",
+      "David J. Lewis",
+      "Natalia Martsinovich",
+      "Christopher S. Allen",
+      "Mohsen Danaie",
+      "Andrew J. Logsdail",
+      "Vladimir Fal’ko",
+      "Graham J. Hutchings",
+      "Alex Summerfield",
+      "Roman Gorbachev",
+      "Sarah J. Haigh"
+    ],
+    "journal": "Science",
+    "year": 2026,
+    "url": "https://doi.org/10.1126/science.adw2469",
+    "cites": 1,
+    "tags": [
+      "Electron Microscopy"
+    ]
+  },
+  {
+    "title": "Real-space overlap is not enough: ambiguity in nanobeam iterative ptychography",
+    "authors": [
+      "Stephanie M. Ribet",
+      "Mohsen Danaie",
+      "Willem P. M. de Kleijne",
+      "Arthur R. C. McCray",
+      "Frederick Allars",
+      "Christopher S. Allen",
+      "Colin Ophus",
+      "Georgios Varnavides"
+    ],
+    "journal": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.30359",
+    "cites": 0,
+    "tags": [
+      "4D-STEM",
+      "Ptychography"
+    ]
+  },
+  {
+    "title": "An Interactive, Automated 4D-STEM data acquisition and analysis routine for Scanning Electron Nanobeam Diffraction and Ptychography experiments",
+    "authors": [
+      "Mohsen Danaie",
+      "Max England",
+      "Yiming Xu",
+      "Ruomu Zhang",
+      "Ed Darnbrough",
+      "Josh Willem De Boer",
+      "Frederick Allars",
+      "Zaeem Najeeb",
+      "Aakash Varambhia",
+      "Jinseok Ryu",
+      "Benjamin Bradnick",
+      "D. McGrouther",
+      "Manfred E. Schuster",
+      "Christopher S. Allen"
+    ],
+    "journal": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2608.13752",
+    "cites": 0,
+    "tags": [
+      "4D-STEM",
+      "Ptychography",
+      "Machine Learning"
+    ]
+  },
+  {
+    "title": "Resolving Nanoscale Heterogeneities in Lead Halide Perovskites Through Low‐Dose Concurrent 4D‐STEM‐EDX Mapping",
+    "authors": [
+      "Jinseok Ryu",
+      "Alexandra A. Sheader",
+      "Mohsen Danaie",
+      "David G. Hopkinson",
+      "Katherine E. MacArthur",
+      "Nakita K. Noel",
+      "Christopher S. Allen"
+    ],
+    "journal": "Advanced Materials",
+    "year": 2026,
+    "url": "https://doi.org/10.1002/adma.74382",
+    "cites": 0,
+    "tags": [
+      "Perovskites",
+      "4D-STEM",
+      "Spectroscopy",
+      "Low Dose"
+    ]
+  },
+  {
+    "title": "In Situ Dynamics of the Microscopic Crystallographic Dehydration Pathway in a Model Channel Hydrate, Theophylline",
+    "authors": [
+      "Natalia Koniuch",
+      "Sang Pham",
+      "Mohsen Danaie",
+      "Fanny Costa",
+      "Zabeada Aslam",
+      "Stephanie Foster",
+      "Helen Blade",
+      "Les Hughes",
+      "Nicole Hondow",
+      "Rik Drummond-Brydson",
+      "Sean M. Collins",
+      "Andy P. Brown"
+    ],
+    "journal": "arXiv",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.12029",
+    "cites": 0,
+    "tags": [
+      "In Situ",
+      "Low Dose",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Defect-assisted refinement of nanoscale alpha in titanium alloys",
+    "authors": [
+      "Abigail K. Ackerman",
+      "Benjamin H. Savitzky",
+      "Colin Ophus",
+      "Mohsen Danaie",
+      "Phani Karamched",
+      "David Dye"
+    ],
+    "journal": "Communications Materials",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s43246-026-01096-y",
+    "cites": 0,
+    "tags": [
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "One‐size‐fits‐all: a universal binding site for single‐layer metal cluster self‐assembly",
+    "authors": [
+      "Emerson C. Kohlrausch",
+      "Sadegh Ghaderzadeh",
+      "Gazi N. Aliev",
+      "Ilya Popov",
+      "Fatmah Saad",
+      "Eman Alharbi",
+      "Quentin M. Ramasse",
+      "Graham A. Rance",
+      "Mohsen Danaie",
+      "Madasamy Thangamuthu",
+      "Mathew Young",
+      "Richard Plummer",
+      "David J. Morgan",
+      "Wolfgang Theis",
+      "Elena Besley",
+      "Andrei N. Khlobystov",
+      "Jesum Alves Fernandes"
+    ],
+    "journal": "Advanced Science",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/advs.202508034",
+    "cites": 13,
+    "tags": [
+      "Electron Microscopy"
+    ]
+  },
+  {
+    "title": "Characterization of nanostructural imperfections in superconducting quantum circuits",
+    "authors": [
+      "Mohammed Alghadeer",
+      "Simone D Fasciati",
+      "Shuxiang Cao",
+      "Michele Piscitelli",
+      "Matthew C Spink",
+      "David G Hopkinson",
+      "Mohsen Danaie",
+      "Susannah C Speller",
+      "Peter J Leek",
+      "Mustafa Bakr"
+    ],
+    "journal": "Materials for Quantum Technology",
+    "year": 2025,
+    "url": "https://doi.org/10.1088/2633-4356/aded66",
+    "cites": 8,
+    "tags": [
+      "Superconductors",
+      "Quantum"
+    ]
+  },
+  {
+    "title": "On the use of clustering workflows for automated microstructure segmentation of analytical stem datasets",
+    "authors": [
+      "Zhiquan Kho",
+      "Andy Bridger",
+      "Keith Butler",
+      "Ercin C. Duran",
+      "Mohsen Danaie",
+      "Alexander S. Eggeman"
+    ],
+    "journal": "APL Materials",
+    "year": 2025,
+    "url": "https://doi.org/10.1063/5.0246329",
+    "cites": 6,
+    "tags": [
+      "Machine Learning",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Nanostructure and photovoltaic potential of plasmonic nanofibrous active layers",
+    "authors": [
+      "Ryan M. Schofield",
+      "Barbara M. Maciejewska",
+      "Karim A. Elmestekawy",
+      "Jack M. Woolley",
+      "George. T. Tebbutt",
+      "Mohsen Danaie",
+      "Christopher S. Allen",
+      "Laura M. Herz",
+      "Hazel E. Assender",
+      "Nicole Grobert"
+    ],
+    "journal": "Small",
+    "year": 2025,
+    "url": "https://doi.org/10.1002/smll.202409269",
+    "cites": 3,
+    "tags": [
+      "Energy Materials",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "A Combined Neutron and Synchrotron X‑ray Scattering Study of a MgAl-Layered Double Oxide",
+    "authors": [
+      "Frederick Z.T. Yang",
+      "Theodosios Famprikis",
+      "Joerg Neuefeind",
+      "Mohsen Danaie",
+      "Claire T. Coulthard",
+      "Chunping Chen",
+      "Dermot O’Hare"
+    ],
+    "journal": "Inorganic Chemistry",
+    "year": 2025,
+    "url": "https://doi.org/10.1021/acs.inorgchem.5c03754",
+    "cites": 2,
+    "tags": [
+      "Irradiation",
+      "Porous Materials"
+    ]
+  },
+  {
+    "title": "Sulfur‐bearing serpentine in carbonaceous chondrites",
+    "authors": [
+      "N. Topping",
+      "J. C. Bridges",
+      "L. J. Hicks",
+      "L. Petera",
+      "C. S. Allen",
+      "J. Ryu",
+      "D. G. Hopkinson",
+      "M. Danaie",
+      "L. Blase",
+      "F. M. Willcocks",
+      "G. Douglas",
+      "H. G. Changela",
+      "T. Noguchi",
+      "T. Matsumoto",
+      "A. Miyake"
+    ],
+    "journal": "Meteoritics &amp; Planetary Science",
+    "year": 2025,
+    "url": "https://doi.org/10.1111/maps.70069",
+    "cites": 0,
+    "tags": [
+      "Planetary Science"
+    ]
+  },
+  {
+    "title": "Benign methylformamidinium byproduct induced by cation heterogeneity inhibits local formation of δ-phase perovskites",
+    "authors": [
+      "Jihoo Lim",
+      "Jaehui Kim",
+      "Josh Davies-Jones",
+      "Mohsen Danaie",
+      "Eunyoung Choi",
+      "Hongjae Shim",
+      "Liang Chen",
+      "Jincheol Kim",
+      "Judy S. Kim",
+      "Philip R. Davies",
+      "Jan Seidel",
+      "Martin A. Green",
+      "Samuel D. Stranks",
+      "Sang Il Seok",
+      "Jae Sung Yun"
+    ],
+    "journal": "Energy &amp; Environmental Science",
+    "year": 2024,
+    "url": "https://doi.org/10.1039/d4ee03058c",
+    "cites": 25,
+    "tags": [
+      "Perovskites"
+    ]
+  },
+  {
+    "title": "Cation ordering in low-temperature niobium-rich NbWO bronzes: New anodes for high-rate Li-ion batteries",
+    "authors": [
+      "Supreeth Nagendran",
+      "Amoghavarsha Mahadevegowda",
+      "Sundeep Vema",
+      "Mohsen Danaie",
+      "Weixin Song",
+      "Bo Wen",
+      "Caterina Ducati",
+      "Clare P. Grey"
+    ],
+    "journal": "Matter",
+    "year": 2024,
+    "url": "https://doi.org/10.1016/j.matt.2024.06.023",
+    "cites": 16,
+    "tags": [
+      "Energy Materials",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Effect of Pt nanoparticle morphology on the aerobic oxidation of ethylene glycol to glycolic acid in water",
+    "authors": [
+      "Werner Oberhauser",
+      "Claudio Evangelisti",
+      "Xuan Trung Nguyen",
+      "Jonathan Filippi",
+      "Lorenzo Poggini",
+      "Laura Capozzoli",
+      "Gabriele Manca",
+      "Ella A. Kitching",
+      "Thomas J. A. Slater",
+      "Mohsen Danaie"
+    ],
+    "journal": "Inorganic Chemistry",
+    "year": 2024,
+    "url": "https://doi.org/10.1021/acs.inorgchem.4c03970",
+    "cites": 2,
+    "tags": [
+      "Catalysis",
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "Controlling nanocluster growth through nanoconfinement: the effect of the number and nature of metal–organic framework functionalities",
+    "authors": [
+      "James King",
+      "Zhipeng Lin",
+      "Federica Zanca",
+      "Hui Luo",
+      "Linda Zhang",
+      "Patrick Cullen",
+      "Mohsen Danaie",
+      "Michael Hirscher",
+      "Simone Meloni",
+      "Alin M. Elena",
+      "Petra Á. Szilágyi"
+    ],
+    "journal": "Physical Chemistry Chemical Physics",
+    "year": 2024,
+    "url": "https://doi.org/10.1039/d4cp02422b",
+    "cites": 2,
+    "tags": [
+      "Nanoparticles",
+      "Porous Materials"
+    ]
+  },
+  {
+    "title": "Experimental and theoretical evidence for unprecedented strong interactions of gold atoms with boron on boron/sulfur-doped carbon surfaces",
+    "authors": [
+      "Samya Banerjee",
+      "Juliusz A. Wolny",
+      "Mohsen Danaie",
+      "Nicolas P. E. Barry",
+      "Yisong Han",
+      "Houari Amari",
+      "Richard Beanland",
+      "Volker Schünemann",
+      "Peter J. Sadler"
+    ],
+    "journal": "Nanoscale Advances",
+    "year": 2024,
+    "url": "https://doi.org/10.1039/d3na00956d",
+    "cites": 2,
+    "tags": [
+      "Electron Microscopy"
+    ]
+  },
+  {
+    "title": "The mechanism of twin thickening and the elastic strain state of TWIP steel nanotwins",
+    "authors": [
+      "T.W.J. Kwok",
+      "T.P. McAuliffe",
+      "A.K. Ackerman",
+      "B.H. Savitzky",
+      "M. Danaie",
+      "C. Ophus",
+      "D. Dye"
+    ],
+    "journal": "Materials Science and Engineering: A",
+    "year": 2023,
+    "url": "https://doi.org/10.1016/j.msea.2023.145005",
+    "cites": 14,
+    "tags": [
+      "Metals & Alloys",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Versatile domain mapping of scanning electron nanobeam diffraction datasets utilising variational autoencoders",
+    "authors": [
+      "A. Bridger",
+      "W. I. F. David",
+      "T. J. Wood",
+      "M. Danaie",
+      "K. T. Butler"
+    ],
+    "journal": "npj Computational Materials",
+    "year": 2023,
+    "url": "https://doi.org/10.1038/s41524-022-00960-y",
+    "cites": 14,
+    "tags": [
+      "4D-STEM",
+      "Machine Learning"
+    ]
+  },
+  {
+    "title": "Super-resolution electron ptychography of low dimensional materials at 30 keV: Beyond the detector limit",
+    "authors": [
+      "C. S. Allen",
+      "M. Danaie",
+      "J. H. Warner",
+      "D. J. Batey",
+      "A. I. Kirkland"
+    ],
+    "journal": "Applied Physics Letters",
+    "year": 2023,
+    "url": "https://doi.org/10.1063/5.0143684",
+    "cites": 12,
+    "tags": [
+      "Ptychography"
+    ]
+  },
+  {
+    "title": "Understanding irradiation damage in high-temperature superconductors for fusion reactors using high resolution X-ray absorption spectroscopy",
+    "authors": [
+      "Rebecca J. Nicholls",
+      "Sofia Diaz-Moreno",
+      "William Iliffe",
+      "Yatir Linden",
+      "Tayebeh Mousavi",
+      "Matteo Aramini",
+      "Mohsen Danaie",
+      "Chris R. M. Grovenor",
+      "Susannah C. Speller"
+    ],
+    "journal": "Communications Materials",
+    "year": 2022,
+    "url": "https://doi.org/10.1038/s43246-022-00272-0",
+    "cites": 53,
+    "tags": [
+      "Hydrogen Storage",
+      "Superconductors",
+      "Irradiation",
+      "Spectroscopy"
+    ]
+  },
+  {
+    "title": "Analysing neutron radiation damage in YBa2Cu3O7–x high‐temperature superconductor tapes",
+    "authors": [
+      "Y. Linden",
+      "W.R. Iliffe",
+      "G. He",
+      "M. Danaie",
+      "D.X. Fischer",
+      "M. Eisterer",
+      "S.C. Speller",
+      "C.R.M. Grovenor"
+    ],
+    "journal": "Journal of Microscopy",
+    "year": 2022,
+    "url": "https://doi.org/10.1111/jmi.13078",
+    "cites": 28,
+    "tags": [
+      "Superconductors",
+      "Irradiation"
+    ]
+  },
+  {
+    "title": "Direct TEM observation and quantification of the Gibbs-Thomson effect in a nickel superalloy",
+    "authors": [
+      "Chryssanthi Papadaki",
+      "Wei Li",
+      "Christopher S. Allen",
+      "Mohsen Danaie",
+      "León Romano Brandt",
+      "Alexander M. Korsunsky"
+    ],
+    "journal": "arXiv",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2210.02133",
+    "cites": 2,
+    "tags": [
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "Stabilized tilted-octahedra halide perovskites inhibit local formation of performance-limiting phases",
+    "authors": [
+      "Tiarnan A. S. Doherty",
+      "Satyawan Nagane",
+      "Dominik J. Kubicki",
+      "Young-Kwang Jung",
+      "Duncan N. Johnstone",
+      "Affan N. Iqbal",
+      "Dengyang Guo",
+      "Kyle Frohna",
+      "Mohsen Danaie",
+      "Elizabeth M. Tennyson",
+      "Stuart Macpherson",
+      "Anna Abfalterer",
+      "Miguel Anaya",
+      "Yu-Hsien Chiang",
+      "Phillip Crout",
+      "Francesco Simone Ruggeri",
+      "Sean Collins",
+      "Clare P. Grey",
+      "Aron Walsh",
+      "Paul A. Midgley",
+      "Samuel D. Stranks"
+    ],
+    "journal": "Science",
+    "year": 2021,
+    "url": "https://doi.org/10.1126/science.abl4890",
+    "cites": 308,
+    "tags": [
+      "Perovskites"
+    ]
+  },
+  {
+    "title": "Design, identification, and evolution of a surface ruthenium (II/III) single site for CO activation",
+    "authors": [
+      "Liqun Kang",
+      "Bolun Wang",
+      "Adam Thetford",
+      "Ke Wu",
+      "Mohsen Danaie",
+      "Qian He",
+      "Emma K. Gibson",
+      "Ling‐Dong Sun",
+      "Hiroyuki Asakura",
+      "C. Richard A. Catlow",
+      "Feng Ryan Wang"
+    ],
+    "journal": "Angewandte Chemie",
+    "year": 2021,
+    "url": "https://doi.org/10.1002/ange.202008370",
+    "cites": 26,
+    "tags": [
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "Adsorption and activation of molecular oxygen over atomic copper (I/II) site on ceria",
+    "authors": [
+      "Liqun Kang",
+      "Bolun Wang",
+      "Qiming Bing",
+      "Michal Zalibera",
+      "Robert Büchel",
+      "Ruoyu Xu",
+      "Qiming Wang",
+      "Yiyun Liu",
+      "Diego Gianolio",
+      "Chiu C. Tang",
+      "Emma K. Gibson",
+      "Mohsen Danaie",
+      "Christopher Allen",
+      "Ke Wu",
+      "Sushila Marlow",
+      "Ling-dong Sun",
+      "Qian He",
+      "Shaoliang Guan",
+      "Anton Savitsky",
+      "Juan J. Velasco-Vélez",
+      "June Callison",
+      "Christopher W. M. Kay",
+      "Sotiris E. Pratsinis",
+      "Wolfgang Lubitz",
+      "Jing-yao Liu",
+      "Feng Ryan Wang"
+    ],
+    "journal": "Nature Communications",
+    "year": 2020,
+    "url": "https://doi.org/10.1038/s41467-020-17852-8",
+    "cites": 154,
+    "tags": [
+      "Hydrogen Storage"
+    ]
+  },
+  {
+    "title": "Competitive Nucleation Mechanism for CsPbBr3 Perovskite Nanoplatelet Growth",
+    "authors": [
+      "Victor M. Burlakov",
+      "Yasser Hassan",
+      "Mohsen Danaie",
+      "Henry J. Snaith",
+      "Alain Goriely"
+    ],
+    "journal": "The Journal of Physical Chemistry Letters",
+    "year": 2020,
+    "url": "https://doi.org/10.1021/acs.jpclett.0c01794",
+    "cites": 47,
+    "tags": [
+      "Perovskites",
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "In-situ TEM study of irradiation-induced damage mechanisms in monoclinic-ZrO2",
+    "authors": [
+      "Junliang Liu",
+      "Anamul Haq Mir",
+      "Guanze He",
+      "Mohsen Danaie",
+      "Jonathan Hinks",
+      "Stephen Donnelly",
+      "Heidi Nordin",
+      "Sergio Lozano-Perez",
+      "Chris R.M. Grovenor"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2020,
+    "url": "https://doi.org/10.1016/j.actamat.2020.08.064",
+    "cites": 37,
+    "tags": [
+      "Irradiation",
+      "In Situ"
+    ]
+  },
+  {
+    "title": "4D-STEM elastic stress state characterisation of a TWIP steel nanotwin",
+    "authors": [
+      "Thomas McAuliffe",
+      "Abigail K. Ackerman",
+      "Benjamin H. Savitzky",
+      "Thomas Kwok",
+      "Mohsen Danaie",
+      "Colin Ophus",
+      "David Dye"
+    ],
+    "journal": "arXiv",
+    "year": 2020,
+    "url": "https://arxiv.org/abs/2004.03982",
+    "cites": 3,
+    "tags": [
+      "4D-STEM",
+      "Metals & Alloys",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Molecular nitrogen promotes catalytic hydrodeoxygenation",
+    "authors": [
+      "Haohong Duan",
+      "Jin-Cheng Liu",
+      "Ming Xu",
+      "Yufei Zhao",
+      "Xue-Lu Ma",
+      "Juncai Dong",
+      "Xusheng Zheng",
+      "Jianwei Zheng",
+      "Christopher S. Allen",
+      "Mohsen Danaie",
+      "Yung-Kang Peng",
+      "Titipong Issariyakul",
+      "Dongliang Chen",
+      "Angus I. Kirkland",
+      "Jean-Charles Buffet",
+      "Jun Li",
+      "Shik Chi Edman Tsang",
+      "Dermot O’Hare"
+    ],
+    "journal": "Nature Catalysis",
+    "year": 2019,
+    "url": "https://doi.org/10.1038/s41929-019-0368-6",
+    "cites": 108,
+    "tags": [
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "Manipulating the optical properties of carbon dots by fine‐tuning their structural features",
+    "authors": [
+      "Hui Luo",
+      "Nikolaos Papaioannou",
+      "Enrico Salvadori",
+      "Maxie M. Roessler",
+      "Gereon Ploenes",
+      "Ernst R. H. van Eck",
+      "Liviu C. Tanase",
+      "Jingyu Feng",
+      "Yiwei Sun",
+      "Yan Yang",
+      "Mohsen Danaie",
+      "Ana Belen Jorge",
+      "Andrei Sapelkin",
+      "James Durrant",
+      "Stoichko D. Dimitrov",
+      "Maria‐Magdalena Titirici"
+    ],
+    "journal": "ChemSusChem",
+    "year": 2019,
+    "url": "https://doi.org/10.1002/cssc.201901795",
+    "cites": 65,
+    "tags": [
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "Anisotropic fracture dynamics due to local lattice distortions",
+    "authors": [
+      "Gang Seob Jung",
+      "Shanshan Wang",
+      "Zhao Qin",
+      "Si Zhou",
+      "Mohsen Danaie",
+      "Angus I. Kirkland",
+      "Markus J. Buehler",
+      "Jamie H. Warner"
+    ],
+    "journal": "ACS Nano",
+    "year": 2019,
+    "url": "https://doi.org/10.1021/acsnano.9b01071",
+    "cites": 26,
+    "tags": [
+      "In Situ",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Atom probe tomography of Au–Cu bimetallic nanoparticles synthesized by inert gas condensation",
+    "authors": [
+      "Q. Yang",
+      "M. Danaie",
+      "N. Young",
+      "V. Broadley",
+      "D. E. Joyce",
+      "T. L. Martin",
+      "E. Marceau",
+      "M. P. Moody",
+      "P. A. J. Bagot"
+    ],
+    "journal": "The Journal of Physical Chemistry C",
+    "year": 2019,
+    "url": "https://doi.org/10.1021/acs.jpcc.9b09340",
+    "cites": 12,
+    "tags": [
+      "Nanoparticles",
+      "Metals & Alloys",
+      "Atom Probe"
+    ]
+  },
+  {
+    "title": "Generation of maghemite nanocrystals from iron–sulfur centres",
+    "authors": [
+      "Samya Banerjee",
+      "Andreas Omlor",
+      "Juliusz A. Wolny",
+      "Yisong Han",
+      "Frederik Lermyte",
+      "Amy E. Godfrey",
+      "Peter B. O'Connor",
+      "Volker Schünemann",
+      "Mohsen Danaie",
+      "Peter J. Sadler"
+    ],
+    "journal": "Dalton Transactions",
+    "year": 2019,
+    "url": "https://doi.org/10.1039/c9dt00514e",
+    "cites": 4,
+    "tags": [
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "Correlative atomic scale characterisation of secondary carbides in M50 bearing steel",
+    "authors": [
+      "Sarah E. Hopkin",
+      "Mohsen Danaie",
+      "Gael Guetard",
+      "Pedro Rivera-Diaz-del-Castillo",
+      "Paul A. J. Bagot",
+      "Michael P. Moody"
+    ],
+    "journal": "Philosophical Magazine",
+    "year": 2018,
+    "url": "https://doi.org/10.1080/14786435.2017.1410290",
+    "cites": 28,
+    "tags": [
+      "Metals & Alloys",
+      "Atom Probe"
+    ]
+  },
+  {
+    "title": "Radiation Damage and Thermal Recovery of Perovskite Superconductor Yttrium Barium Copper Oxide",
+    "authors": [
+      "A. Khobnya",
+      "M. E. Pek",
+      "Graeme Greaves",
+      "Mohsen Danaie",
+      "Greg Brittles",
+      "S. E. Donnelly",
+      "Frank Schoofs",
+      "Aidan Reilly",
+      "Philip D. Edmondson",
+      "S. Pedrazzini"
+    ],
+    "journal": "arXiv",
+    "year": 2018,
+    "url": "https://arxiv.org/abs/1810.10477",
+    "cites": 0,
+    "tags": [
+      "Perovskites",
+      "Superconductors",
+      "Irradiation"
+    ]
+  },
+  {
+    "title": "Nanoscale stoichiometric analysis of a high-temperature superconductor by atom probe tomography",
+    "authors": [
+      "Stella Pedrazzini",
+      "Andrew J. London",
+      "Baptiste Gault",
+      "David Saxey",
+      "Susannah Speller",
+      "Chris R. M. Grovenor",
+      "Mohsen Danaie",
+      "Michael P. Moody",
+      "Philip D. Edmondson",
+      "Paul A. J. Bagot"
+    ],
+    "journal": "Microscopy and Microanalysis",
+    "year": 2017,
+    "url": "https://doi.org/10.1017/s1431927616012757",
+    "cites": 38,
+    "tags": [
+      "Superconductors",
+      "Atom Probe"
+    ]
+  },
+  {
+    "title": "On the effect of boron on grain boundary character in a new polycrystalline superalloy",
+    "authors": [
+      "P. Kontis",
+      "H.A. Mohd Yusof",
+      "S. Pedrazzini",
+      "M. Danaie",
+      "K.L. Moore",
+      "P.A.J. Bagot",
+      "M.P. Moody",
+      "C.R.M. Grovenor",
+      "R.C. Reed"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2016,
+    "url": "https://doi.org/10.1016/j.actamat.2015.10.006",
+    "cites": 280,
+    "tags": [
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "Multivariate-aided mapping of rare-earth partitioning in a wrought magnesium alloy",
+    "authors": [
+      "David Rossouw",
+      "Brian Langelier",
+      "Andrew Scullion",
+      "Mohsen Danaie",
+      "Gianluigi A. Botton"
+    ],
+    "journal": "Scripta Materialia",
+    "year": 2016,
+    "url": "https://doi.org/10.1016/j.scriptamat.2016.07.022",
+    "cites": 23,
+    "tags": [
+      "Magnesium",
+      "Machine Learning"
+    ]
+  },
+  {
+    "title": "Characterization of Ordering in A-Site Deficient Perovskite Ca1–xLa2x/3TiO3 Using STEM/EELS",
+    "authors": [
+      "Mohsen Danaie",
+      "Demie Kepaptsoglou",
+      "Quentin M. Ramasse",
+      "Colin Ophus",
+      "Karl R. Whittle",
+      "Sebastian M. Lawson",
+      "Stella Pedrazzini",
+      "Neil P. Young",
+      "Paul A. J. Bagot",
+      "Philip D. Edmondson"
+    ],
+    "journal": "Inorganic Chemistry",
+    "year": 2016,
+    "url": "https://doi.org/10.1021/acs.inorgchem.6b02087",
+    "cites": 18,
+    "tags": [
+      "Perovskites",
+      "Spectroscopy",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Physical characterization of cathodically-activated corrosion filaments on magnesium alloy AZ31B",
+    "authors": [
+      "Z.P. Cano",
+      "M. Danaie",
+      "J.R. Kish",
+      "J.R. McDermid",
+      "G.A. Botton",
+      "G. Williams"
+    ],
+    "journal": "Corrosion",
+    "year": 2015,
+    "url": "https://doi.org/10.5006/1384",
+    "cites": 97,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "Localized corrosion behavior of AZ31B magnesium alloy with an electrodeposited poly (3, 4-ethylenedioxythiophene) coating",
+    "authors": [
+      "Ushula M. Tefashe",
+      "Philippe Dauphin-Ducharme",
+      "Mohsen Danaie",
+      "Zachary P. Cano",
+      "Joseph R. Kish",
+      "Gianluigi A. Botton",
+      "Janine Mauzeroll"
+    ],
+    "journal": "Journal of The Electrochemical Society",
+    "year": 2015,
+    "url": "https://doi.org/10.1149/2.0601510jes",
+    "cites": 38,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "In-situ neutron powder diffraction on TiF3 catalysed magnesium for hydrogen storage applications",
+    "authors": [
+      "R. Flacau",
+      "X. Tan",
+      "M. Danaie",
+      "H. Fritzsche",
+      "D. Mitlin"
+    ],
+    "journal": "Canadian Metallurgical Quarterly",
+    "year": 2015,
+    "url": "https://doi.org/10.1179/1879139514y.0000000167",
+    "cites": 4,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Catalysis",
+      "Irradiation"
+    ]
+  },
+  {
+    "title": "Reactions in a multilayered Si (substrate)/Ta/Mg/Fe/Ta/Pd thin-film structure during annealing and deuterium absorption",
+    "authors": [
+      "Mohsen Danaie",
+      "Helmut Fritzsche",
+      "W. Peter Kalisvaart",
+      "XueHai Tan",
+      "David Mitlin",
+      "Gianluigi A. Botton",
+      "Jacques Huot"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2015,
+    "url": "https://doi.org/10.1016/j.actamat.2014.12.037",
+    "cites": 3,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Metals & Alloys",
+      "In Situ"
+    ]
+  },
+  {
+    "title": "Towards a physical description for the origin of enhanced catalytic activity of corroding magnesium surfaces",
+    "authors": [
+      "M. Taheri",
+      "J.R. Kish",
+      "N. Birbilis",
+      "M. Danaie",
+      "E.A. McNally",
+      "J.R. McDermid"
+    ],
+    "journal": "Electrochimica Acta",
+    "year": 2014,
+    "url": "https://doi.org/10.1016/j.electacta.2013.11.086",
+    "cites": 247,
+    "tags": [
+      "Corrosion",
+      "Magnesium",
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "Local flux of hydrogen from magnesium alloy corrosion investigated by scanning electrochemical microscopy",
+    "authors": [
+      "Ushula Mengesha Tefashe",
+      "Michael Edward Snowden",
+      "Philippe Dauphin Ducharme",
+      "Mohsen Danaie",
+      "Gianluigi A. Botton",
+      "Janine Mauzeroll"
+    ],
+    "journal": "Journal of Electroanalytical Chemistry",
+    "year": 2014,
+    "url": "https://doi.org/10.1016/j.jelechem.2014.03.002",
+    "cites": 78,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "TEM examination of the film formed on corroding Mg prior to breakdown",
+    "authors": [
+      "M. Taheri",
+      "M. Danaie",
+      "J. R. Kish"
+    ],
+    "journal": "Journal of The Electrochemical Society",
+    "year": 2014,
+    "url": "https://doi.org/10.1149/2.017403jes",
+    "cites": 76,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "The cathodic behaviour of Al–Mn precipitates during atmospheric and saline aqueous corrosion of a sand-cast AM50 alloy",
+    "authors": [
+      "Mohsen Danaie",
+      "Robert Matthew Asmussen",
+      "Pellumb Jakupi",
+      "David W. Shoesmith",
+      "Gianluigi A. Botton"
+    ],
+    "journal": "Corrosion Science",
+    "year": 2014,
+    "url": "https://doi.org/10.1016/j.corsci.2014.02.030",
+    "cites": 73,
+    "tags": [
+      "Corrosion",
+      "Magnesium",
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "Local hydrogen fluxes correlated to microstructural features of a corroding sand cast AM50 magnesium alloy",
+    "authors": [
+      "Philippe Dauphin-Ducharme",
+      "R. Matthew Asmussen",
+      "Ushula M. Tefashe",
+      "Mohsen Danaie",
+      "W. Jeffrey Binns",
+      "Pellumb Jakupi",
+      "Gianluigi A. Botton",
+      "David W. Shoesmith",
+      "Janine Mauzeroll"
+    ],
+    "journal": "Journal of The Electrochemical Society",
+    "year": 2014,
+    "url": "https://doi.org/10.1149/2.0571412jes",
+    "cites": 42,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "The role of aluminum distribution on the local corrosion resistance of the microstructure in a sand-cast AM50 alloy",
+    "authors": [
+      "Mohsen Danaie",
+      "Robert Matthew Asmussen",
+      "Pellumb Jakupi",
+      "David W. Shoesmith",
+      "Gianluigi A. Botton"
+    ],
+    "journal": "Corrosion Science",
+    "year": 2013,
+    "url": "https://doi.org/10.1016/j.corsci.2013.07.038",
+    "cites": 111,
+    "tags": [
+      "Corrosion",
+      "Magnesium",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Tracking the corrosion of magnesium sand cast AM50 alloy in chloride environments",
+    "authors": [
+      "R. Matthew Asmussen",
+      "Pellumb Jakupi",
+      "Mohsen Danaie",
+      "Gianluigi A. Botton",
+      "David W. Shoesmith"
+    ],
+    "journal": "Corrosion Science",
+    "year": 2013,
+    "url": "https://doi.org/10.1016/j.corsci.2013.05.022",
+    "cites": 58,
+    "tags": [
+      "Corrosion",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "Thermodynamically destabilized hydride formation in “bulk” Mg–AlTi multilayers for hydrogen storage",
+    "authors": [
+      "Peter Kalisvaart",
+      "Babak Shalchi-Amirkhiz",
+      "Ramin Zahiri",
+      "Beniamin Zahiri",
+      "XueHai Tan",
+      "Mohsen Danaie",
+      "Gianluigi Botton",
+      "David Mitlin"
+    ],
+    "journal": "Physical Chemistry Chemical Physics",
+    "year": 2013,
+    "url": "https://doi.org/10.1039/c3cp52706a",
+    "cites": 15,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "Microstructure of cold rolled magnesium and magnesium hydrides for hydrogen storage applications",
+    "authors": [
+      "J Lang",
+      "N Skryabina",
+      "D Fruchart",
+      "M Danaie",
+      "J Huot"
+    ],
+    "journal": "Химия в интересах устойчивого развития",
+    "year": 2013,
+    "url": "https://scholar.google.com/scholar?q=Microstructure%20of%20cold%20rolled%20magnesium%20and%20magnesium%20hydrides%20for%20hydrogen%20storage%20applications",
+    "cites": 14,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Stable hydrogen storage cycling in magnesium hydride, in the range of room temperature to 300° C, achieved using a new bimetallic Cr-V nanoscale catalyst",
+    "authors": [
+      "Beniamin Zahiri",
+      "Mohsen Danaie",
+      "XueHai Tan",
+      "Babak Shalchi Amirkhiz",
+      "Gianluigi A. Botton",
+      "David Mitlin"
+    ],
+    "journal": "The Journal of Physical Chemistry C",
+    "year": 2012,
+    "url": "https://doi.org/10.1021/jp211254k",
+    "cites": 70,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "TEM analysis of the microstructure in TiF3-catalyzed and pure MgH2 during the hydrogen storage cycling",
+    "authors": [
+      "Mohsen Danaie",
+      "David Mitlin"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2012,
+    "url": "https://doi.org/10.1016/j.actamat.2012.07.036",
+    "cites": 65,
+    "tags": [
+      "Hydrogen Storage",
+      "Catalysis",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Formation of the Ternary Complex Hydride Mg2FeH6 from Magnesium Hydride (β-MgH2) and Iron: An Electron Microscopy and Energy-Loss Spectroscopy Study",
+    "authors": [
+      "Mohsen Danaie",
+      "Alexandre Augusto Cesario Asselli",
+      "Jacques Huot",
+      "Gianluigi A. Botton"
+    ],
+    "journal": "The Journal of Physical Chemistry C",
+    "year": 2012,
+    "url": "https://doi.org/10.1021/jp3085843",
+    "cites": 44,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Spectroscopy"
+    ]
+  },
+  {
+    "title": "Structure and morphology of Pt3Sc alloy thin film prepared by pulsed laser deposition",
+    "authors": [
+      "Lynda Meddar",
+      "Sébastien Garbarino",
+      "Mohsen Danaie",
+      "Gianluigi A. Botton",
+      "Daniel Guay"
+    ],
+    "journal": "Thin Solid Films",
+    "year": 2012,
+    "url": "https://doi.org/10.1016/j.tsf.2012.10.004",
+    "cites": 8,
+    "tags": [
+      "Metals & Alloys",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "High rate electrochemical capacitors from three-dimensional arrays of vanadium nitride functionalized carbon nanotubes",
+    "authors": [
+      "Li Zhang",
+      "Chris M. B. Holt",
+      "Erik J. Luber",
+      "Brian C. Olsen",
+      "Huatao Wang",
+      "Mohsen Danaie",
+      "Xinwei Cui",
+      "XueHai Tan",
+      "Vicki W. Lui",
+      "W. Peter Kalisvaart",
+      "David Mitlin"
+    ],
+    "journal": "The Journal of Physical Chemistry C",
+    "year": 2011,
+    "url": "https://doi.org/10.1021/jp205052f",
+    "cites": 179,
+    "tags": [
+      "Energy Materials"
+    ]
+  },
+  {
+    "title": "Hydrogen storage in bulk Mg–Ti and Mg–stainless steel multilayer composites synthesized via accumulative roll-bonding (ARB)",
+    "authors": [
+      "Mohsen Danaie",
+      "Christian Mauer",
+      "David Mitlin",
+      "Jacques Huot"
+    ],
+    "journal": "International Journal of Hydrogen Energy",
+    "year": 2011,
+    "url": "https://doi.org/10.1016/j.ijhydene.2010.12.006",
+    "cites": 84,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Metals & Alloys"
+    ]
+  },
+  {
+    "title": "Microstructural evolution during hydrogen sorption cycling of Mg–FeTi nanolayered composites",
+    "authors": [
+      "W.P. Kalisvaart",
+      "Alan Kubis",
+      "Mohsen Danaie",
+      "Babak Shalchi Amirkhiz",
+      "David Mitlin"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2011,
+    "url": "https://doi.org/10.1016/j.actamat.2010.12.010",
+    "cites": 48,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "First principle study of hydrogen diffusion in equilibrium rutile, rutile with deformation twins and fluorite polymorph of Mg hydride",
+    "authors": [
+      "S.X. Tao",
+      "W.P. Kalisvaart",
+      "M. Danaie",
+      "D. Mitlin",
+      "P.H.L. Notten",
+      "R.A. van Santen",
+      "A.P.J. Jansen"
+    ],
+    "journal": "International Journal of Hydrogen Energy",
+    "year": 2011,
+    "url": "https://doi.org/10.1016/j.ijhydene.2011.06.075",
+    "cites": 47,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "The influence of Cu substitution on the hydrogen sorption properties of magnesium rich Mg-Ni films",
+    "authors": [
+      "X. Tan",
+      "M. Danaie",
+      "W.P. Kalisvaart",
+      "D. Mitlin"
+    ],
+    "journal": "International Journal of Hydrogen Energy",
+    "year": 2011,
+    "url": "https://doi.org/10.1016/j.ijhydene.2010.11.058",
+    "cites": 23,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium"
+    ]
+  },
+  {
+    "title": "Palladium nanoparticles formed on titanium silicate ETS-10",
+    "authors": [
+      "Christopher C. H. Lin",
+      "Mohsen Danaie",
+      "David Mitlin",
+      "Steven M. Kuznicki"
+    ],
+    "journal": "Journal of Nanoscience and Nanotechnology",
+    "year": 2011,
+    "url": "https://doi.org/10.1166/jnn.2011.3562",
+    "cites": 3,
+    "tags": [
+      "Nanoparticles",
+      "Porous Materials"
+    ]
+  },
+  {
+    "title": "Analysis of deformation twins and the partially dehydrogenated microstructure in nanocrystalline magnesium hydride (MgH2) powder",
+    "authors": [
+      "M. Danaie",
+      "S.X. Tao",
+      "P. Kalisvaart",
+      "D. Mitlin"
+    ],
+    "journal": "Acta Materialia",
+    "year": 2010,
+    "url": "https://doi.org/10.1016/j.actamat.2010.01.055",
+    "cites": 92,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Nanoparticles",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Hydrogen Sorption Cycling Kinetic Stability and Microstructure of Single-Walled Carbon Nanotube (SWCNT) Magnesium Hydride (MgH2) Nanocomposites",
+    "authors": [
+      "Babak Shalchi Amirkhiz",
+      "Mohsen Danaie",
+      "Michael Barnes",
+      "Benoit Simard",
+      "David Mitlin"
+    ],
+    "journal": "The Journal of Physical Chemistry C",
+    "year": 2010,
+    "url": "https://doi.org/10.1021/jp907724t",
+    "cites": 84,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "Bimetallic Fe–V catalyzed magnesium films exhibiting rapid and cycleable hydrogenation at 200° C",
+    "authors": [
+      "Beniamin Zahiri",
+      "Babak Shalchi Amirkhiz",
+      "Mohsen Danaie",
+      "David Mitlin"
+    ],
+    "journal": "Applied Physics Letters",
+    "year": 2010,
+    "url": "https://doi.org/10.1063/1.3275864",
+    "cites": 27,
+    "tags": [
+      "Hydrogen Storage",
+      "Magnesium",
+      "Catalysis"
+    ]
+  },
+  {
+    "title": "The influence of SWCNT–metallic nanoparticle mixtures on the desorption properties of milled MgH2 powders",
+    "authors": [
+      "Babak Shalchi Amirkhiz",
+      "Mohsen Danaie",
+      "David Mitlin"
+    ],
+    "journal": "Nanotechnology",
+    "year": 2009,
+    "url": "https://doi.org/10.1088/0957-4484/20/20/204016",
+    "cites": 82,
+    "tags": [
+      "Hydrogen Storage",
+      "Nanoparticles"
+    ]
+  },
+  {
+    "title": "TEM analysis and sorption properties of high-energy milled MgH2 powders",
+    "authors": [
+      "Mohsen Danaie",
+      "David Mitlin"
+    ],
+    "journal": "Journal of Alloys and Compounds",
+    "year": 2009,
+    "url": "https://doi.org/10.1016/j.jallcom.2008.09.078",
+    "cites": 70,
+    "tags": [
+      "Hydrogen Storage"
+    ]
+  },
+  {
+    "title": "Thermally stable silver nanoparticles formed on a zeolite surface show multiple crystal twinning",
+    "authors": [
+      "C. C. H. Lin",
+      "M. Danaie",
+      "Y. Liu",
+      "D. Mitlin",
+      "S. M. Kuznicki",
+      "E. M. Eyring"
+    ],
+    "journal": "Journal of Nanoscience and Nanotechnology",
+    "year": 2009,
+    "url": "https://doi.org/10.1166/jnn.2009.1213",
+    "cites": 10,
+    "tags": [
+      "Nanoparticles",
+      "Porous Materials",
+      "Crystallography"
+    ]
+  },
+  {
+    "title": "The synthesis of a platy chabazite analog from delaminated metakaolin with the ability to surface template nanosilver particulates",
+    "authors": [
+      "Steven M. Kuznicki",
+      "Christopher C. H. Lin",
+      "Lan Wu",
+      "Haiyan Yin",
+      "Mohsen Danaie",
+      "David Mitlin"
+    ],
+    "journal": "Clays and Clay Minerals",
+    "year": 2008,
+    "url": "https://doi.org/10.1346/ccmn.2008.0560606",
+    "cites": 5,
+    "tags": [
+      "Porous Materials"
+    ]
+  }
+]

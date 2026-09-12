@@ -1,0 +1,655 @@
+Stabilized tilted-octahedra halide perovskites inhibit local formation of performance-limiting phases
+TAS Doherty, S Nagane, DJ Kubicki, YK Jung, DN Johnstone, AN Iqbal, ...
+Science 374 (6575), 1598-1605
+
+Paperpile
+308	2021
+On the effect of boron on grain boundary character in a new polycrystalline superalloy
+P Kontis, HAM Yusof, S Pedrazzini, M Danaie, KL Moore, PAJ Bagot, ...
+Acta Materialia 103, 688-699
+
+Paperpile
+280	2016
+Towards a physical description for the origin of enhanced catalytic activity of corroding magnesium surfaces
+M Taheri, JR Kish, N Birbilis, M Danaie, EA McNally, JR McDermid
+Electrochimica Acta 116, 396-403
+
+Paperpile
+247	2014
+High rate electrochemical capacitors from three-dimensional arrays of vanadium nitride functionalized carbon nanotubes
+L Zhang, CMB Holt, EJ Luber, BC Olsen, H Wang, M Danaie, X Cui, ...
+The Journal of Physical Chemistry C 115 (49), 24381-24393
+
+Paperpile
+179	2011
+Adsorption and activation of molecular oxygen over atomic copper (I/II) site on ceria
+L Kang, B Wang, Q Bing, M Zalibera, R Büchel, R Xu, Q Wang, Y Liu, ...
+Nature communications 11 (1), 4008
+
+Paperpile
+154	2020
+The role of aluminum distribution on the local corrosion resistance of the microstructure in a sand-cast AM50 alloy
+M Danaie, RM Asmussen, P Jakupi, DW Shoesmith, GA Botton
+Corrosion Science 77, 151-163
+
+Paperpile
+111	2013
+Molecular nitrogen promotes catalytic hydrodeoxygenation
+H Duan, JC Liu, M Xu, Y Zhao, XL Ma, J Dong, X Zheng, J Zheng, ...
+Nature Catalysis 2 (12), 1078-1087
+
+Paperpile
+108	2019
+Physical characterization of cathodically-activated corrosion filaments on magnesium alloy AZ31B
+ZP Cano, M Danaie, JR Kish, JR McDermid, GA Botton, G Williams
+Corrosion 71 (2), 146-159
+
+Paperpile
+97	2015
+Analysis of deformation twins and the partially dehydrogenated microstructure in nanocrystalline magnesium hydride (MgH2) powder
+M Danaie, SX Tao, P Kalisvaart, D Mitlin
+Acta Materialia 58 (8), 3162-3172
+
+Paperpile
+92	2010
+Hydrogen storage in bulk Mg–Ti and Mg–stainless steel multilayer composites synthesized via accumulative roll-bonding (ARB)
+M Danaie, C Mauer, D Mitlin, J Huot
+International Journal of Hydrogen Energy 36 (4), 3022-3036
+
+Paperpile
+84	2011
+Hydrogen Sorption Cycling Kinetic Stability and Microstructure of Single-Walled Carbon Nanotube (SWCNT) Magnesium Hydride (MgH2) Nanocomposites
+BS Amirkhiz, M Danaie, M Barnes, B Simard, D Mitlin
+The Journal of Physical Chemistry C 114 (7), 3265-3275
+
+Paperpile
+84	2010
+The influence of SWCNT–metallic nanoparticle mixtures on the desorption properties of milled MgH2 powders
+BS Amirkhiz, M Danaie, D Mitlin
+Nanotechnology 20 (20), 204016
+
+Paperpile
+82	2009
+Local flux of hydrogen from magnesium alloy corrosion investigated by scanning electrochemical microscopy
+UM Tefashe, ME Snowden, PD Ducharme, M Danaie, GA Botton, ...
+Journal of Electroanalytical Chemistry 720, 121-127
+
+Paperpile
+78	2014
+TEM examination of the film formed on corroding Mg prior to breakdown
+M Taheri, M Danaie, JR Kish
+Journal of the Electrochemical Society 161 (3), C89-C94
+
+Paperpile
+76	2014
+The cathodic behaviour of Al–Mn precipitates during atmospheric and saline aqueous corrosion of a sand-cast AM50 alloy
+M Danaie, RM Asmussen, P Jakupi, DW Shoesmith, GA Botton
+Corrosion Science 83, 299-309
+
+Paperpile
+73	2014
+Stable hydrogen storage cycling in magnesium hydride, in the range of room temperature to 300° C, achieved using a new bimetallic Cr-V nanoscale catalyst
+B Zahiri, M Danaie, XH Tan, BS Amirkhiz, GA Botton, D Mitlin
+The Journal of Physical Chemistry C 116 (4), 3188-3199
+
+Paperpile
+70	2012
+TEM analysis and sorption properties of high-energy milled MgH2 powders
+M Danaie, D Mitlin
+Journal of Alloys and Compounds 476 (1-2), 590-598
+
+Paperpile
+70	2009
+Manipulating the optical properties of carbon dots by fine‐tuning their structural features
+H Luo, N Papaioannou, E Salvadori, MM Roessler, G Ploenes, ...
+ChemSusChem 12 (19), 4432-4441
+
+Paperpile
+65	2019
+TEM analysis of the microstructure in TiF3-catalyzed and pure MgH2 during the hydrogen storage cycling
+M Danaie, D Mitlin
+Acta materialia 60 (19), 6441-6456
+
+Paperpile
+65	2012
+Tracking the corrosion of magnesium sand cast AM50 alloy in chloride environments
+RM Asmussen, P Jakupi, M Danaie, GA Botton, DW Shoesmith
+Corrosion Science 75, 114-122
+
+Paperpile
+58	2013
+Understanding irradiation damage in high-temperature superconductors for fusion reactors using high resolution X-ray absorption spectroscopy
+RJ Nicholls, S Diaz-Moreno, W Iliffe, Y Linden, T Mousavi, M Aramini, ...
+Communications Materials 3 (1), 52
+
+Paperpile
+53	2022
+Microstructural evolution during hydrogen sorption cycling of Mg–FeTi nanolayered composites
+WP Kalisvaart, A Kubis, M Danaie, BS Amirkhiz, D Mitlin
+Acta Materialia 59 (5), 2083-2095
+
+Paperpile
+48	2011
+Competitive Nucleation Mechanism for CsPbBr3 Perovskite Nanoplatelet Growth
+VM Burlakov, Y Hassan, M Danaie, HJ Snaith, A Goriely
+The Journal of Physical Chemistry Letters 11 (16), 6535-6543
+
+Paperpile
+47	2020
+First principle study of hydrogen diffusion in equilibrium rutile, rutile with deformation twins and fluorite polymorph of Mg hydride
+SX Tao, WP Kalisvaart, M Danaie, D Mitlin, PHL Notten, RA Van Santen, ...
+International journal of hydrogen energy 36 (18), 11802-11809
+
+Paperpile
+47	2011
+Formation of the Ternary Complex Hydride Mg2FeH6 from Magnesium Hydride (β-MgH2) and Iron: An Electron Microscopy and Energy-Loss Spectroscopy Study
+M Danaie, AAC Asselli, J Huot, GA Botton
+The Journal of Physical Chemistry C 116 (49), 25701-25714
+
+Paperpile
+44	2012
+Local hydrogen fluxes correlated to microstructural features of a corroding sand cast AM50 magnesium alloy
+P Dauphin-Ducharme, R Matthew Asmussen, UM Tefashe, M Danaie, ...
+Journal of The Electrochemical Society 161 (12), C557-C564
+
+Paperpile
+42	2014
+Nanoscale stoichiometric analysis of a high-temperature superconductor by atom probe tomography
+S Pedrazzini, AJ London, B Gault, D Saxey, S Speller, CRM Grovenor, ...
+Microscopy and Microanalysis 23 (2), 414-424
+
+Paperpile
+38	2017
+Localized corrosion behavior of AZ31B magnesium alloy with an electrodeposited poly (3, 4-ethylenedioxythiophene) coating
+UM Tefashe, P Dauphin-Ducharme, M Danaie, ZP Cano, JR Kish, ...
+Journal of The Electrochemical Society 162 (10), C536-C544
+
+Paperpile
+38	2015
+In-situ TEM study of irradiation-induced damage mechanisms in monoclinic-ZrO2
+J Liu, AH Mir, G He, M Danaie, J Hinks, S Donnelly, H Nordin, ...
+Acta Materialia 199, 429-442
+
+Paperpile
+37	2020
+Analysing neutron radiation damage in YBa2Cu3O7–x high‐temperature superconductor tapes
+Y Linden, WR Iliffe, G He, M Danaie, DX Fischer, M Eisterer, SC Speller, ...
+Journal of Microscopy 286 (1), 3-12
+
+Paperpile
+28	2022
+Correlative atomic scale characterisation of secondary carbides in M50 bearing steel
+SE Hopkin, M Danaie, G Guetard, P Rivera-Diaz-del-Castillo, PAJ Bagot, ...
+Philosophical Magazine 98 (9), 766-782
+
+Paperpile
+28	2018
+Bimetallic Fe–V catalyzed magnesium films exhibiting rapid and cycleable hydrogenation at 200° C
+B Zahiri, BS Amirkhiz, M Danaie, D Mitlin
+Applied Physics Letters 96 (1)
+
+Paperpile
+27	2010
+Design, identification, and evolution of a surface ruthenium (II/III) single site for CO activation
+L Kang, B Wang, A Thetford, K Wu, M Danaie, Q He, EK Gibson, LD Sun, ...
+Angewandte Chemie International Edition 60 (3), 1212-1219
+
+Paperpile
+26	2021
+Anisotropic fracture dynamics due to local lattice distortions
+GS Jung, S Wang, Z Qin, S Zhou, M Danaie, AI Kirkland, MJ Buehler, ...
+ACS nano 13 (5), 5693-5702
+
+Paperpile
+26	2019
+Benign methylformamidinium byproduct induced by cation heterogeneity inhibits local formation of δ-phase perovskites
+J Lim, J Kim, J Davies-Jones, M Danaie, E Choi, H Shim, L Chen, J Kim, ...
+Energy & Environmental Science 17 (23), 9134-9143
+
+Paperpile
+25	2024
+Multivariate-aided mapping of rare-earth partitioning in a wrought magnesium alloy
+D Rossouw, B Langelier, A Scullion, M Danaie, GA Botton
+Scripta Materialia 124, 174-178
+
+Paperpile
+23	2016
+The influence of Cu substitution on the hydrogen sorption properties of magnesium rich Mg-Ni films
+X Tan, M Danaie, WP Kalisvaart, D Mitlin
+International journal of hydrogen energy 36 (3), 2154-2164
+
+Paperpile
+23	2011
+pyxem/pyxem: pyxem 0.10. 0
+DN Johnstone, P Crout, J Laulainen, S Høgås, B Martineau, T Bergh, ...
+Zenodo
+
+Paperpile
+21	2020
+Characterization of Ordering in A-Site Deficient Perovskite Ca1–xLa2x/3TiO3 Using STEM/EELS
+M Danaie, D Kepaptsoglou, QM Ramasse, C Ophus, KR Whittle, ...
+Inorganic Chemistry 55 (19), 9937-9948
+
+Paperpile
+18	2016
+Cation ordering in low-temperature niobium-rich NbWO bronzes: New anodes for high-rate Li-ion batteries
+S Nagendran, A Mahadevegowda, S Vema, M Danaie, W Song, B Wen, ...
+Matter 7 (10), 3567-3586
+
+Paperpile
+16	2024
+Thermodynamically destabilized hydride formation in “bulk” Mg–AlTi multilayers for hydrogen storage
+P Kalisvaart, B Shalchi-Amirkhiz, R Zahiri, B Zahiri, XH Tan, M Danaie, ...
+Physical Chemistry Chemical Physics 15 (39), 16432-16436
+
+Paperpile
+15	2013
+The mechanism of twin thickening and the elastic strain state of TWIP steel nanotwins
+TWJ Kwok, TP McAuliffe, AK Ackerman, BH Savitzky, M Danaie, C Ophus, ...
+Materials Science and Engineering: A 873, 145005
+
+Paperpile
+14	2023
+Versatile domain mapping of scanning electron nanobeam diffraction datasets utilising variational autoencoders
+A Bridger, WIF David, TJ Wood, M Danaie, KT Butler
+Npj Computational materials 9 (1), 14
+
+Paperpile
+14	2023
+Microstructure of cold rolled magnesium and magnesium hydrides for hydrogen storage applications
+J Lang, N Skryabina, D Fruchart, M Danaie, J Huot
+Химия в интересах устойчивого развития 21 (6), 599-606
+
+Paperpile
+14	2013
+One‐size‐fits‐all: a universal binding site for single‐layer metal cluster self‐assembly
+EC Kohlrausch, S Ghaderzadeh, GN Aliev, I Popov, F Saad, E Alharbi, ...
+Advanced Science 12 (37), e08034
+
+Paperpile
+13	2025
+Super-resolution electron ptychography of low dimensional materials at 30 keV: Beyond the detector limit
+CS Allen, M Danaie, JH Warner, DJ Batey, AI Kirkland
+Applied Physics Letters 123 (2)
+
+Paperpile
+12	2023
+Atom probe tomography of Au–Cu bimetallic nanoparticles synthesized by inert gas condensation
+Q Yang, M Danaie, N Young, V Broadley, DE Joyce, TL Martin, E Marceau, ...
+The Journal of Physical Chemistry C 123 (43), 26481-26489
+
+Paperpile
+12	2019
+Kinetic stabilization of magnesium hydride
+D Mitlin, B Zahiri, M Danaie, BS Amirkhiz, XH Tan, E Luber, ...
+US Patent 9,045,335
+
+Paperpile
+10	2015
+Thermally stable silver nanoparticles formed on a zeolite surface show multiple crystal twinning
+CCH Lin, M Danaie, Y Liu, D Mitlin, SM Kuznicki, EM Eyring
+Journal of Nanoscience and Nanotechnology 9 (8), 4985-4987
+
+Paperpile
+10	2009
+Low-Dose Scanning Electron Diffraction Microscopy of Mechanochemically Nanostructured Pharmaceuticals
+DN Johnstone, CS Allen, M Danaie, RCB Copley, J Brum, AI Kirkland, ...
+Microscopy and Microanalysis 25 (S2), 1746-1747
+
+Paperpile
+9	2019
+Investigation of beam damage mechanism of ball-milled MgH2 powder
+M Danaie, M Malac, D Mitlin
+Microscopy and Microanalysis 14 (S2), 278
+
+Paperpile
+9	2008
+Characterization of nanostructural imperfections in superconducting quantum circuits
+M Alghadeer, SD Fasciati, S Cao, M Piscitelli, MC Spink, DG Hopkinson, ...
+Materials for Quantum Technology 5 (3), 035201
+
+Paperpile
+8	2025
+Structure and morphology of Pt3Sc alloy thin film prepared by pulsed laser deposition
+L Meddar, S Garbarino, M Danaie, GA Botton, D Guay
+Thin solid films 524, 127-132
+
+Paperpile
+8	2012
+pyxem/pyxem: pyxem 0.15. 1
+D Johnstone, P Crout, M Nord, C Francis, J Laulainen, S Høgås, ...
+Zenodo
+
+Paperpile
+7	2022
+On the use of clustering workflows for automated microstructure segmentation of analytical stem datasets
+Z Kho, A Bridger, K Butler, EC Duran, M Danaie, AS Eggeman
+APL Materials 13 (1)
+
+Paperpile
+6	2025
+pyxem/pyxem: v0. 19.1
+D Johnstone, P Crout, C Francis, M Nord, J Laulainen, S Høgås, ...
+Zenodo
+
+Paperpile
+5	2024
+Cover Feature: Manipulating the Optical Properties of Carbon Dots by Fine‐Tuning their Structural Features (ChemSusChem 19/2019)
+H Luo, N Papaioannou, E Salvadori, MM Roessler, G Ploenes, ...
+ChemSusChem 12 (19), 4335-4335
+
+Paperpile
+5	2019
+The synthesis of a platy chabazite analog from delaminated metakaolin with the ability to surface template nanosilver particulates
+SM Kuznicki, CCH Lin, L Wu, H Yin, M Danaie, D Mitlin
+Clays and clay minerals 56 (6), 655-659
+
+Paperpile
+5	2008
+Metal‐Mediated Nitrogen Doping of Carbon Supports Boosts Hydrogen Production from Ammonia
+TJ Liddy, BJ Young, EC Kohlrausch, A Weilhard, GN Aliev, Y Chen, ...
+Angewandte Chemie International Edition 65 (8), e22937
+
+Paperpile
+4	2026
+pyxem/pyxem-demos: pyxem-demos 0.11. 0
+DN Johnstone, P Crout, S Høgås, T Bergh, M Danaie, C Francis, ...
+Zenodo
+
+Paperpile
+4	2020
+Generation of maghemite nanocrystals from iron–sulfur centres
+S Banerjee, A Omlor, JA Wolny, Y Han, F Lermyte, AE Godfrey, ...
+Dalton Transactions 48 (26), 9564-9569
+
+Paperpile
+4	2019
+In-situ neutron powder diffraction on TiF3 catalysed magnesium for hydrogen storage applications
+R Flacau, X Tan, M Danaie, H Fritzsche, D Mitlin
+Canadian Metallurgical Quarterly 54 (1), 47-50
+
+Paperpile
+4	2015
+Nanostructure and photovoltaic potential of plasmonic nanofibrous active layers
+RM Schofield, BM Maciejewska, KA Elmestekawy, JM Woolley, ...
+Small 21 (3), 2409269
+
+Paperpile
+3	2025
+4D-STEM elastic stress state characterisation of a TWIP steel nanotwin
+TP McAuliffe, AK Ackerman, BH Savitzky, TWJ Kwok, M Danaie, C Ophus, ...
+arXiv preprint arXiv:2004.03982
+
+Paperpile
+3	2020
+pyxem/pyxem: v0. 16.0
+D Johnstone, P Crout, M Nord, C Francis, J Laulainen, S Høgås, ...
+Zenodo
+
+Paperpile
+3	2019
+Imaging structure and magnetisation in new ways using 4D STEM
+I MacLaren, M Nord, S Conner, D McGrouther, CS Allen, M Danaie, ...
+Microsc. Microanal 24 (1), 181
+
+Paperpile
+3	2018
+Low Dose Defocused Probe Electron Ptychography Using a Fast Direct Electron Detector
+CS Allen, J Song, M Danaie, P Wang, AI Kirkland
+Microscopy and Microanalysis 24 (S1), 186-187
+
+Paperpile
+3	2018
+Reactions in a multilayered Si (substrate)/Ta/Mg/Fe/Ta/Pd thin-film structure during annealing and deuterium absorption
+M Danaie, H Fritzsche, WP Kalisvaart, XH Tan, D Mitlin, GA Botton, J Huot
+Acta Materialia 90, 259-271
+
+Paperpile
+3	2015
+Palladium nanoparticles formed on titanium silicate ETS-10
+CCH Lin, M Danaie, D Mitlin, SM Kuznicki
+Journal of Nanoscience and Nanotechnology 11 (3), 2537-2539
+
+Paperpile
+3	2011
+A Combined Neutron and Synchrotron X‑ray Scattering Study of a MgAl-Layered Double Oxide
+FZT Yang, T Famprikis, J Neuefeind, M Danaie, CT Coulthard, C Chen, ...
+Inorganic Chemistry 64 (46), 22720
+
+Paperpile
+2	2025
+Effect of Pt nanoparticle morphology on the aerobic oxidation of ethylene glycol to glycolic acid in water
+W Oberhauser, C Evangelisti, XT Nguyen, J Filippi, L Poggini, ...
+Inorganic Chemistry 63 (48), 22912-22922
+
+Paperpile
+2	2024
+Controlling nanocluster growth through nanoconfinement: the effect of the number and nature of metal–organic framework functionalities
+J King, Z Lin, F Zanca, H Luo, L Zhang, P Cullen, M Danaie, M Hirscher, ...
+Physical Chemistry Chemical Physics 26 (38), 25021-25028
+
+Paperpile
+2	2024
+Experimental and theoretical evidence for unprecedented strong interactions of gold atoms with boron on boron/sulfur-doped carbon surfaces
+S Banerjee, JA Wolny, M Danaie, NPE Barry, Y Han, H Amari, ...
+Nanoscale Advances 6 (7), 1837-1846
+
+Paperpile
+2	2024
+Direct TEM observation and quantification of the Gibbs-Thomson effect in a nickel superalloy
+C Papadaki, W Li, CS Allen, M Danaie, LR Brandt, AM Korsunsky
+arXiv preprint arXiv:2210.02133
+
+Paperpile
+2	2022
+Functionalized MOFs for Subnanometric Control of Pd Speciation for Selective Hydrogenation of Butadiene
+D Decarolis, S Ahmed, J King, AM Elena, L Zhang, J Armstrong, ...
+ACS Applied Nano Materials 9 (25), 11720
+
+Paperpile
+1	2026
+Direct Imaging Reveals the Atomic Mechanism of Active‐Site Formation in Nanoclusters for Hydrogen Production
+EC Kohlrausch, C Leist, GN Aliev, M Danaie, M Young, M Thangamuthu, ...
+Advanced Materials, e73454
+
+Paperpile
+1	2026
+Atomic-resolution imaging of gold species at organic liquid-solid interfaces
+S Sullivan-Allsop, N Clark, W Wang, R Cai, W Thornley, DG Hopkinson, ...
+Science 392 (6793), 77-82
+
+Paperpile
+1	2026
+Multi-Technique Characterization of Sulfur-Bearing Serpentine in Carbonaceous Chondrites
+N Topping, JC Bridges, LJ Hicks, L Petera, C Allen, M Danaie, L Blase, ...
+86th Annual Meeting of the Meteoritical Society Meeting 86 (3036), 6302
+
+Paperpile
+1	2024
+Versatile automated domain mapping of 4D-STEM data utilizing ML algorithms and Bayesian statistics
+A Bridger, M Danaie, K Butler, T Wood, WIF David
+Microscopy and Microanalysis 28 (S1), 3022-3023
+
+Paperpile
+1	2022
+Robust Measurements of Functional Material Properties using in situ 4D-STEM
+C Ophus, M Conroy, M Danaie, BH Savitzky, A Rakowski, A Ackerman, ...
+Microscopy and Microanalysis 28 (S1), 2312-2313
+
+Paperpile
+1	2022
+In situ analysis of nm-scale alpha formation in titanium alloys
+AK Ackerman, C Ophus, M Danaie, P Karamched, AJ Knowles, ...
+Microscopy and Microanalysis 25 (S2), 1490-1491
+
+Paperpile
+1	2019
+Microstructure-property correlation in magnesium-based hydrogen storage systems-The case for ball-milled magnesium hydride powder and Mg-based multilayered composites
+M Danaie
+
+Paperpile
+1	2011
+Real-space overlap is not enough: ambiguity in nanobeam iterative ptychography
+SM Ribet, M Danaie, WPM de Kleijne, ARC McCray, F Allars, CS Allen, ...
+arXiv preprint arXiv:2608.30359
+
+Paperpile
+2026
+An Interactive, Automated 4D-STEM data acquisition and analysis routine for Scanning Electron Nanobeam Diffraction and Ptychography experiments
+M Danaie, M England, Y Xu, R Zhang, E Darnbrough, JW De Boer, ...
+arXiv preprint arXiv:2608.13752
+
+Paperpile
+2026
+Resolving Nanoscale Heterogeneities in Lead Halide Perovskites Through Low‐Dose Concurrent 4D‐STEM‐EDX Mapping
+J Ryu, AA Sheader, M Danaie, DG Hopkinson, KE MacArthur, NK Noel, ...
+Advanced Materials, e74382
+
+Paperpile
+2026
+In Situ Dynamics of the Microscopic Crystallographic Dehydration Pathway in a Model Channel Hydrate, Theophylline
+N Koniuch, ST Pham, M Danaie, F Costa, Z Aslam, S Foster, H Blade, ...
+arXiv preprint arXiv:2606.12029
+
+Paperpile
+2026
+Defect-assisted refinement of nanoscale alpha in titanium alloys
+AK Ackerman, BH Savitzky, C Ophus, M Danaie, P Karamched, D Dye
+Communications Materials 7 (1), 118
+
+Paperpile
+2026
+Sulfur‐bearing serpentine in carbonaceous chondrites
+N Topping, JC Bridges, LJ Hicks, L Petera, CS Allen, J Ryu, ...
+Meteoritics & Planetary Science 60 (12), 2864-2890
+
+Paperpile
+2025
+4D-STEM Analyses of Sulfur-Bearing Serpentine in Carbonaceous Chondrites
+N Topping, JC Bridges, LJ Hicks, L Petera, C Allen, J Ryu, DG Hopkinson, ...
+METEORITICS & PLANETARY SCIENCE 60
+
+Paperpile
+2025
+Structural Analysis of LNMO Cathode Materials using 4D-STEM ACOM and Data Science Techniques
+F Adrar, J Jean, G Oney, M Danaie, F Weill, M Bugnet, A Demortiere
+19ème Colloque de la Société Française des Microscopies
+
+Paperpile
+2025
+Automation of Simultaneous 4DSTEM-EDX Acquisition and Data Analysis for Beam-sensitive Materials
+J Ryu, AA Sheader, M Danaie, DG Hopkinson, KE MacArthur, NK Noel, ...
+13th Asia Pacific Microscopy Congress 2025, e197
+
+Paperpile
+2025
+Electron beam effects on neuromorphic nanocluster networks during electron microscopy experiments
+M Baljozović, JE McCormack, E Kitching, M Dearg, M Danaie, Y Niu, ...
+BOOK OF ABSTRACTS, 45
+
+Paperpile
+2023
+Tilted-octahedra stabilize FA rich halide perovskites
+T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...
+Proceedings of International Conference on Hybrid and Organic Photovoltaics …
+
+Paperpile
+2022
+Research data supporting" Stabilized tilted-octahedra halide perovskites inhibit local formation of performance-limiting phases"
+T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...
+
+Paperpile
+2022
+Octahedral Tilt Engineering: Atomic-Level Picture of Stabilized α-FAPbI3
+T Doherty, S Nagane, D Kubicki, YK Jung, D Johnstone, A Iqbal, D Guo, ...
+Proceedings of Online Conference on Atomic-level Characterisation of Hybrid …
+
+Paperpile
+2021
+Novel Synthesis and Multi-technique Characterisation of Au-Cu Nanoparticles
+Q Yang, M Danaie, N Young, V Broadley, J DE, TL Martin, E Marceau, ...
+Microscopy and Microanalysis 25 (S2), 2526-2527
+
+Paperpile
+2019
+Radiation Damage and Thermal Recovery of Perovskite Superconductor Yttrium Barium Copper Oxide
+A Khobnya, ME Pek, G Greaves, M Danaie, GD Brittles, SE Donnelly, ...
+arXiv preprint arXiv:1810.10477
+
+Paperpile
+2018
+Low-dose scanning electron diffraction and pharmaceutical nanostructure
+D Johnstone, CS Allen, M Danaie, RCB Copley, A Lafontaine, J Brum, ...
+Acta Crystallographica Section A: Foundations and Advances 74
+
+Paperpile
+2018
+Multivariate‐aided mapping of solute partitioning in a rare‐earth magnesium alloy
+D Rossouw, B Langelier, A Scullion, M Danaie, G Botton
+European Microscopy Congress 2016: Proceedings, 49-50
+
+Paperpile
+2016
+TEM Characterization of ion radiation damage in Ca (1-X) La2X/3TiO3 Perovskites
+M Danaie, S Pedrazzini, NP Young, PAJ Bagot, KR Whittle, ...
+Microscopy and Microanalysis 21, 1335
+
+Paperpile
+2015
+New insights into magnesium alloy corrosion using scanning electrochemical microscopy
+PD Ducharme, U Tefashe, R Asmussen, M Danaie, W Binns, P Jakupi, ...
+ABSTRACTS OF PAPERS OF THE AMERICAN CHEMICAL SOCIETY 249
+
+Paperpile
+2015
+TEM guided microstructural design of MgH 2 powders and thin film alloys with room temperature volumetric hydrogen cycling ability
+D Mitlin, P Kalisvaart, M Danaie, SX Tao, B Zahiri, H Fritzsche
+AIP Conference Proceedings, Berlin, Germany
+
+Paperpile
+2012
+Analysis of Deformation Twins and the Partially Dehydrogenated Microstructure in Nanocrystalline Magnesium Hydride(MgH 2)
+D Mitlin, M Danaie, SX Tao, P Kalisvaart
+Minerals, Metals and Materials Society/AIME, 420 Commonwealth Dr., P. O. Box …
+
+Paperpile
+2011
+Microstructure and hydrogen storage properties magnesium-aluminum alloy thin films with various catalytic coatings
+CT Harrower, C Ophus, M Danaie, J Haagsma, X Tan, D Mitlin
+
+Paperpile
+2009
+TEM analysis of high-energy ball-milled MgH {sub 2} powders
+M Danaie, D Mitlin
+
+Paperpile
+2009
+The influence of transition metal containing carbon nanotubes on the hydrogen storage properties of ball milled MgH {sub 2} powders
+B Shalchi Amirkhiz, M Danaie, D Mitlin, B Simard
+
+Paperpile
+2009
+C536 Journal of The Electrochemical Society, 162 (10) C536-C544 (2015)
+E Poly, MT Coating Ushula, P Dauphin-Ducharme, M Danaie
+
+Paperpile
+Characterisation of Radiation Damage in Perovskite Superconductor Yttrium Barium Copper Oxide
+S Pedrazzini, M Danaie, GD Brittles, S Speller, CRM Grovenor, ...
+
+Paperpile
+SITE-SPECIFIC MICROSTRUCTURE CHARACTERIZATION OF THE SURFACE LAYER IN A SAND-CAST Mg-Al ALLOY (AM50) CORRODED IN AN AQUEOUS NACL SOLUTION
+M Danaie, RM Asmussen, P Jakupi, DW Shoesmith, GA Botton
+
+Paperpile
+Aberration-corrected Electron Microscopy: Probing the Electronic Structure and Chemistry of Materials at the Atomic Level
+GA Botton, E Bellido-Sosa, M Bugnet, M Danaie, K Dudeck, N Gauquelin, ...
+
+Paperpile
+Applications of electron energy loss spectroscopy with high spatial resolution and high energy resolution
+GA Botton, M Bugnet, M Danaie, N Gauquelin, S Lazar, F Nan, ...
+
+Paperpile
+Characterization of the microstructure in a nanoscale Mg/(Al, Ti) multilayer system
+M Danaie, D Mitlin, GA Botton
+
+Paperpile
