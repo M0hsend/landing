@@ -24,7 +24,8 @@ description: Peer-reviewed publications and preprints of Mohsen Danaie.
 }
 :::
 
-Conference abstracts, software releases, and the full record are on
+This list covers peer-reviewed papers and preprints. Conference abstracts,
+software releases, and the complete record are on
 [Google Scholar](https://scholar.google.com/citations?user=0UheidQAAAAJ&hl=en).
 
 :::{div}

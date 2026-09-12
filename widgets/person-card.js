@@ -80,6 +80,7 @@ function render({ model, el }) {
       opacity: 0;
       position: absolute;
       left: 0;
+      top: 0;
       width: ${popupWidth}px;
       max-height: 90vh;
       overflow-y: auto;
@@ -201,8 +202,38 @@ function render({ model, el }) {
   const popup = card.querySelector(`.${id}-popup`);
   const nameEl = card.querySelector(`.${id}-name`);
 
+  // Preferred placement is to the right of the card, top-aligned with the
+  // portrait. Falls back to below the name when the viewport is too narrow
+  // (and to the left of the card when only that side has room).
+  const GAP = 14;
   function positionPopup() {
-    popup.style.top = (nameEl.offsetTop + nameEl.offsetHeight + 4) + "px";
+    // Measure at the default placement, then decide.
+    popup.style.left = "0px";
+    popup.style.top = "0px";
+    const cardBox = card.getBoundingClientRect();
+    const vw = window.innerWidth || document.documentElement.clientWidth;
+    const vh = window.innerHeight || document.documentElement.clientHeight;
+    const roomRight = vw - cardBox.right - GAP;
+    const roomLeft = cardBox.left - GAP;
+
+    if (roomRight >= popupWidth) {
+      popup.style.left = (cardBox.width + GAP) + "px";
+    } else if (roomLeft >= popupWidth) {
+      popup.style.left = -(popupWidth + GAP) + "px";
+    } else {
+      // Stacked: below the name, nudged left if it would leave the viewport.
+      popup.style.top = (nameEl.offsetTop + nameEl.offsetHeight + 4) + "px";
+      const overflow = cardBox.left + popupWidth - (vw - 8);
+      popup.style.left = (overflow > 0 ? -Math.min(overflow, cardBox.left - 8) : 0) + "px";
+      return;
+    }
+
+    // Side placement: keep the whole card within view vertically.
+    const h = popup.offsetHeight;
+    let top = 0;
+    if (cardBox.top + h > vh - 8) top = Math.min(0, vh - 8 - cardBox.top - h);
+    if (cardBox.top + top < 8) top = 8 - cardBox.top;
+    popup.style.top = top + "px";
   }
 
   function showPopup() {

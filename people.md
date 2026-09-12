@@ -12,7 +12,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
 :::{anywidget} ./widgets/person-card.js
 {
   "name": "Mohsen Danaie",
-  "image": "images/people/placeholder.png",
+  "image": "images/people/DanaieMohsen.jpg",
   "popup_width": 420,
   "links": [
     {"label": "Email", "url": "mailto:mohsen.danaie@diamond.ac.uk"},
@@ -23,7 +23,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
   "titles": [
     "Senior Electron Microscopy Scientist, ePSIC, Diamond Light Source"
   ],
-  "bio": "Mohsen completed his PhD at the University of Alberta in 2010 on transmission electron microscopy of beam-sensitive Mg-based hydrides. He was a postdoctoral fellow at McMaster University and the Canadian Centre for Electron Microscopy, working on phase transformations in Mg-Fe hydrides and on the link between microstructure and corrosion in magnesium alloys, and then joined the atom probe tomography group in the Department of Materials at the University of Oxford in 2014, studying ion radiation damage in perovskites with aberration-corrected and in situ heating TEM alongside correlative TEM/APT work on engineering alloys. His current research uses scanning electron nanobeam diffraction (SEND) for statistical characterisation of engineering materials, combining automated data analysis workflows with script-controlled data collection on the microscope."
+  "bio": "I completed my PhD at the University of Alberta in 2010, on transmission electron microscopy of beam-sensitive Mg-based hydrides. I then held a postdoctoral position at McMaster University and the Canadian Centre for Electron Microscopy, working on phase transformations in Mg-Fe hydrides and on the relationship between alloy microstructure and corrosion in magnesium alloys. In 2014 I joined the atom probe tomography group in the Department of Materials at the University of Oxford, where I measured ion radiation damage in perovskite phases using aberration-corrected and in situ heating TEM, and carried out correlative TEM and atom probe characterisation of engineering alloys. My current work uses scanning electron nanobeam diffraction for statistical characterisation of engineering materials, combining automated analysis workflows with script-controlled data collection on the microscope."
 }
 :::
 
@@ -36,7 +36,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
 :::{anywidget} ./widgets/person-card.js
 {
   "name": "Tom Liddy",
-  "image": "images/people/placeholder.png",
+  "image": "images/people/LiddyTom.jpg",
   "popup_width": 420,
   "links": [
     {"label": "Email", "url": "mailto:thomas.liddy@diamond.ac.uk"},
@@ -46,7 +46,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
   "titles": [
     "PhD Student, ePSIC and the Sustainable Hydrogen CDT, University of Nottingham"
   ],
-  "bio": "Tom completed an integrated master's degree in Chemistry at the University of Nottingham in 2018, with research on the electrocatalytic activity of perovskites, and then studied fluid-rock interactions for geothermal, carbon capture and storage, and radioactive waste disposal research at the British Geological Survey until 2022. He is now part of a collaboration between the Sustainable Hydrogen CDT and Diamond, producing metal nanoclusters as catalysts for ammonia decomposition and characterising them at ePSIC and I09."
+  "bio": "Tom completed an integrated master's degree in Chemistry at the University of Nottingham in 2018, with research on the electrocatalytic activity of perovskites. He then studied fluid-rock interactions at the British Geological Survey until 2022, for geothermal, carbon capture and storage, and radioactive waste disposal applications. He now works within a collaboration between the Sustainable Hydrogen CDT and Diamond, producing metal nanoclusters as catalysts for ammonia decomposition and characterising them at ePSIC and beamline I09."
 }
 :::
 
@@ -59,7 +59,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
 :::{anywidget} ./widgets/person-card.js
 {
   "name": "Andy Bridger",
-  "image": "images/people/placeholder.png",
+  "image": "images/people/placeholder.jpg",
   "popup_width": 420,
   "links": [
     {"label": "Scholar", "url": "https://scholar.google.com/citations?user=Qjlm5y8AAAAJ&hl=en"}
@@ -67,7 +67,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
   "titles": [
     "University of Oxford"
   ],
-  "bio": "Andy worked with Mohsen on automated domain mapping of scanning electron nanobeam diffraction datasets, using variational autoencoders and Bayesian statistics to segment 4D-STEM data. His interests include inorganic chemistry, energy storage, diffraction techniques, and cathode materials."
+  "bio": "Andy worked with us on automated domain mapping of scanning electron nanobeam diffraction datasets, using variational autoencoders and Bayesian statistics to segment 4D-STEM data. His research interests are inorganic chemistry, energy storage, diffraction techniques, and cathode materials."
 }
 :::
 
@@ -75,5 +75,7 @@ description: Mohsen Danaie and the students working with him at ePSIC.
 
 :::{div}
 :class: msc-data-links
-![placeholder](images/people/placeholder.png)
+![Mohsen Danaie](images/people/DanaieMohsen.jpg)
+![Tom Liddy](images/people/LiddyTom.jpg)
+![placeholder](images/people/placeholder.jpg)
 :::

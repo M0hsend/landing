@@ -9,12 +9,21 @@ site:
 
 :::{div}
 :class: msc-tagline
-Scanning electron nanobeam diffraction and automated 4D-STEM workflows for the statistical characterisation of materials.
+Automated scanning electron nanobeam diffraction, and the statistical
+characterisation of materials that it makes possible.
 :::
 
 ## About
 
-Mohsen Danaie is a Senior Electron Microscopy Scientist at [ePSIC](https://www.diamond.ac.uk/Instruments/Imaging-and-Microscopy/ePSIC.html), the electron Physical Science Imaging Centre at Diamond Light Source, the UK national synchrotron. His research combines scanning electron nanobeam diffraction (SEND) with automated data analysis workflows and script-controlled data collection on the microscope, applied to engineering alloys, energy materials, catalysts, and beam-sensitive materials. Earlier work spanned hydrogen storage in magnesium hydrides, the corrosion of magnesium alloys, and radiation damage in perovskites and superconductors.
+I am a Senior Electron Microscopy Scientist at
+[ePSIC](https://www.diamond.ac.uk/Instruments/Imaging-and-Microscopy/ePSIC.html),
+the electron Physical Science Imaging Centre at Diamond Light Source, the UK
+national synchrotron. My work combines scanning electron nanobeam diffraction
+with automated analysis workflows and script-controlled acquisition on the
+microscope, applied to engineering alloys, energy materials, catalysts, and
+beam-sensitive specimens. Earlier work measured hydrogen storage in magnesium
+hydrides, the corrosion of magnesium alloys, and radiation damage in perovskites
+and superconductors.
 
 ## Site contents
 
