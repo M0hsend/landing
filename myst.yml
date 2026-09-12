@@ -1,0 +1,53 @@
+# MyST configuration for the Mohsen Danaie research website.
+version: 1
+project:
+  id: mohsen-danaie
+  title: Mohsen Danaie
+  short_title: Mohsen Danaie
+  description: >
+    Research website of Mohsen Danaie: electron microscopy of materials.
+  keywords:
+    - electron microscopy
+    - scanning transmission electron microscopy
+    - 4D-STEM
+    - materials science
+  # github: https://github.com/<org>/<repo>
+  exclude:
+    - README.md
+  abbreviations:
+    STEM: scanning transmission electron microscopy
+    TEM: transmission electron microscopy
+    4D-STEM: four dimensional scanning transmission electron microscopy
+    HAADF: high-angle annular dark field
+    EELS: electron energy loss spectroscopy
+    EDS: energy dispersive X-ray spectroscopy
+    FFT: fast Fourier transform
+  toc:
+    - file: index.md
+    - file: people.md
+    - file: research.md
+    - file: publications.md
+    - file: github.md
+    - file: gallery.md
+site:
+  template: book-theme
+  title: Mohsen Danaie
+  parts:
+    primary_sidebar_footer: parts/sidebar-footer.md
+  options:
+    style: ./style.css
+    logo_text: Mohsen Danaie
+    folders: true
+    outline_maxdepth: 2
+    hide_footer_links: true
+  nav:
+    - title: People
+      url: /people
+    - title: Research
+      url: /research
+    - title: Publications
+      url: /publications
+    - title: GitHub
+      url: /github
+    - title: Gallery
+      url: /gallery
