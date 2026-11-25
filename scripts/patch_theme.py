@@ -18,9 +18,22 @@ import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-THEME = os.path.normpath(
-    os.path.join(HERE, "..", "_build", "templates", "site", "myst", "book-theme")
-)
+ROOT = os.path.normpath(os.path.join(HERE, ".."))
+
+
+def _theme_dir():
+    """Where myst saved the site template. A template given by URL in
+    myst.yml (the pinned book-theme zip) lands in a folder named by the
+    sha256 of the URL; a template given by name lands under its name."""
+    with open(os.path.join(ROOT, "myst.yml")) as f:
+        m = re.search(r"^\s*template:\s*(https?://\S+)\s*$", f.read(), re.M)
+    site = os.path.join(ROOT, "_build", "templates", "site")
+    if m:
+        return os.path.join(site, hashlib.sha256(m.group(1).encode()).hexdigest())
+    return os.path.join(site, "myst", "book-theme")
+
+
+THEME = _theme_dir()
 
 # Flat top-bar search runtime (replaces the theme's dialog search).
 # Injected into the server-rendered HTML. The search index path is
@@ -29,36 +42,58 @@ THEME = os.path.normpath(
 _RUNTIME = """
 ;(function(){
   /* ---------- flat top-bar search (replaces the theme's dialog) -------- */
-  var idx=null,loading=false,waiters=[];
-  function indexUrls(){
+  var idx=null,loading=false,waiters=[],base='';
+  /* Record URLs in the index are written from the site root ('/modules/...')
+     with no path prefix, so on a GitHub Pages project site they have to be
+     prefixed or every hit lands on the 404 page. The prefix that serves the
+     index is the prefix the pages live under, so probe for it and keep it. */
+  function basePrefixes(){
     var seg=window.location.pathname.split('/').filter(Boolean);
-    var urls=['/myst.search.json'];
-    if(seg.length)urls.unshift('/'+seg[0]+'/myst.search.json');
-    return urls;
+    return seg.length?['/'+seg[0],'']:[''];
+  }
+  function href(u){
+    return (u&&u.charAt(0)==='/')?base+u:u;
   }
   function load(cb){
     if(cb&&idx)return cb();
     if(cb)waiters.push(cb);
     if(idx||loading)return;
     loading=true;
-    var urls=indexUrls();
+    var pre=basePrefixes();
     function attempt(i){
-      if(i>=urls.length){loading=false;waiters=[];return;}
-      fetch(urls[i]).then(function(r){
+      if(i>=pre.length){loading=false;waiters=[];return;}
+      fetch(pre[i]+'/myst.search.json').then(function(r){
         if(!r.ok)throw new Error('http '+r.status);
         return r.json();
       }).then(function(d){
-        idx=d.records||[];loading=false;
+        idx=d.records||[];base=pre[i];loading=false;
+        prepare(idx);
         var w=waiters;waiters=[];w.forEach(function(f){f();});
       }).catch(function(){attempt(i+1);});
     }
     attempt(0);
   }
-  function titleOf(h){
-    return [h.lvl3,h.lvl2,h.lvl1].filter(Boolean)[0]||'';
-  }
-  function crumbOf(h){
-    return [h.lvl1,h.lvl2,h.lvl3].filter(Boolean).join(' > ');
+  /* Pages in different sections often share a title, so prefix every hit
+     with its ancestor pages, read off the URL path (folders: true nests each
+     page URL under its parent's). */
+  function prepare(recs){
+    var titles={};
+    recs.forEach(function(r){
+      if(r.type==='lvl1')titles[r.url]=r.hierarchy.lvl1;
+    });
+    recs.forEach(function(r){
+      var h=r.hierarchy||{},up=[];
+      var seg=r.url.split('#')[0].split('/').filter(Boolean);
+      for(var i=1;i<seg.length;i++){
+        var t=titles['/'+seg.slice(0,i).join('/')];
+        if(t)up.push(t);
+      }
+      var own=[h.lvl1,h.lvl2,h.lvl3].filter(Boolean);
+      r.crumb=up.concat(own).join(' \\u203a ');
+      r.ownHay=own.join(' ').toLowerCase();
+      r.upHay=up.join(' ').toLowerCase();
+      r.hay=(r.crumb+' '+(r.content||'')).toLowerCase();
+    });
   }
   function search(q){
     if(!idx)return [];
@@ -66,26 +101,23 @@ _RUNTIME = """
     if(!terms.length)return [];
     var seen={},out=[];
     idx.forEach(function(rec){
-      var h=rec.hierarchy||{};
-      var title=titleOf(h),crumb=crumbOf(h);
-      var hay=(crumb+' '+(rec.content||'')).toLowerCase();
-      var titleHay=crumb.toLowerCase();
       var score=0;
       for(var i=0;i<terms.length;i++){
-        if(hay.indexOf(terms[i])<0)return;
-        if(titleHay.indexOf(terms[i])>=0)score+=3;
+        if(rec.hay.indexOf(terms[i])<0)return;
+        if(rec.ownHay.indexOf(terms[i])>=0)score+=3;
+        else if(rec.upHay.indexOf(terms[i])>=0)score+=2;
         score+=1;
       }
       if(rec.type!=='content')score+=2;
-      var key=rec.url;
+      var key=rec.url.split('#')[0];   // one hit per page, its best section
       if(seen[key]!==undefined){
         if(out[seen[key]].score>=score)return;
-        out[seen[key]]={score:score,url:rec.url,title:title,crumb:crumb,
+        out[seen[key]]={score:score,url:rec.url,crumb:rec.crumb,
                         content:rec.content||''};
         return;
       }
       seen[key]=out.length;
-      out.push({score:score,url:rec.url,title:title,crumb:crumb,
+      out.push({score:score,url:rec.url,crumb:rec.crumb,
                 content:rec.content||''});
     });
     out.sort(function(a,b){return b.score-a.score;});
@@ -113,11 +145,11 @@ _RUNTIME = """
       if(!hits.length){list.hidden=true;return;}
       hits.forEach(function(h,i){
         var a=document.createElement('a');
-        a.href=h.url;
+        a.href=href(h.url);
         a.className='msc-search-hit'+(i===active?' active':'');
         var t=document.createElement('div');
         t.className='msc-search-hit-title';
-        t.textContent=h.crumb||h.title;
+        t.textContent=h.crumb;
         a.appendChild(t);
         if(h.content){
           var c=document.createElement('div');
@@ -147,7 +179,7 @@ _RUNTIME = """
         render();
       }else if(ev.key==='Enter'){
         var h=hits[active<0?0:active];
-        if(h){ev.preventDefault();window.location.href=h.url;}
+        if(h){ev.preventDefault();window.location.href=href(h.url);}
       }else if(ev.key==='Escape'){
         input.value='';hits=[];render();input.blur();
       }
@@ -198,7 +230,7 @@ INLINER = INLINER_MARK + _RUNTIME
 
 def main():
     if not os.path.isdir(THEME):
-        sys.exit("book-theme template not found; run `myst build` first")
+        sys.exit(f"book-theme template not found at {THEME}; run `myst build` first")
     total = 0
     # dev server: drop the 1-year immutable cache so patched bundles reload
     server_js = os.path.join(THEME, "server.js")
@@ -246,20 +278,31 @@ def main():
             f.write(new_bsrc)
         total += n
         print(f"patched build/index.js (search runtime, {n} site)")
-    # rename the patched entry + manifest so browsers that cached the stock
-    # bundles (1-year immutable) fetch the patched versions
-    rename = [("entry.client-PCJPW7TK", "entry.client-NBCRT1"),
-              ("manifest-C732C875", "manifest-NBCRT1")]
+    # Rename the patched entry + manifest so browsers that cached the stock
+    # bundles (1-year immutable) fetch the patched versions. The new name is
+    # the stock name plus a suffix: the stock names carry the theme's content
+    # hash, so each theme release gets its own patched name too, and a
+    # browser never pairs a cached entry from an older theme with new chunks.
+    import glob, shutil
     pub = os.path.join(THEME, "public", "build")
-    if not os.path.exists(os.path.join(pub, "entry.client-NBCRT1.js")):
-        import shutil
+    rename = []
+    for stem in ("entry.client-", "manifest-"):
+        hits = [os.path.basename(f)[:-3]
+                for f in sorted(glob.glob(os.path.join(pub, stem + "*.js")))
+                if not f.endswith("-msc.js")]
+        if len(hits) == 1:
+            rename.append((hits[0], hits[0] + "-msc"))
+    if len(rename) != 2:
+        print("skipped cache-bust rename: stock bundle names not found")
+    elif os.path.exists(os.path.join(pub, rename[0][1] + ".js")):
+        print("already renamed: entry.client + manifest")
+    else:
         for old, new in rename:
             shutil.copyfile(
                 os.path.join(pub, f"{old}.js"), os.path.join(pub, f"{new}.js")
             )
-        for path in [os.path.join(THEME, "build", "index.js")] + [
-            os.path.join(pub, "manifest-NBCRT1.js")
-        ]:
+        for path in [os.path.join(THEME, "build", "index.js"),
+                     os.path.join(pub, rename[1][1] + ".js")]:
             with open(path) as f:
                 s = f.read()
             for old, new in rename:
